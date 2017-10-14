@@ -2,6 +2,8 @@
 
 Data detailing Tokyo's Metro network, derived from the line plan and signs.
 
+You can help by improving it! For example, transfer times for example are only placeholders for now.
+
 ## change-options.csv
 
 Details which different identifiers one station has
