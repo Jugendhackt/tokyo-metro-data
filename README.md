@@ -8,6 +8,8 @@ You can help by improving it! For example, transfer times for example are only p
 
 Details which different identifiers one station has
 and how much time it takes to change between platforms.
+It is also used for connecting non-linear lines, like ring lines
+or lines with forks.
 The format is:
 
 ```
