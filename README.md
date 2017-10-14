@@ -4,7 +4,7 @@ Data detailing Tokyo's Metro network, derived from the line plan and signs.
 
 You can help by improving it! For example, transfer times for example are only placeholders for now.
 
-## change-options.csv
+## transitions.csv
 
 Details which different identifiers one station has
 and how much time it takes to change between platforms.
@@ -22,7 +22,7 @@ Example:
 F;01;Y;01;1
 ```
 
-## line.csv
+## lines.csv
 
 Details which stations a line has and how long the it takes to travel from one to another station.
 Does **not** work for line M or line E. The format is:
