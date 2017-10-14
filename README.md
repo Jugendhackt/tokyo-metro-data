@@ -36,3 +36,9 @@ Example:
 ```
 I;01;27;2;2; …;2
 ```
+
+Note that empty lines and lines beginning with `#` must be ignored.
+
+## License
+
+None. `tokyo-metro-data` is public domain.
