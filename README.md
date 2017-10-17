@@ -39,6 +39,12 @@ I;01;27;2;2; …;2
 
 Note that empty lines and lines beginning with `#` must be ignored.
 
+## Projects using this data
+*Feel free to add your project!*
+
+* [Underground Meetup](https://bitbucket.org/undergroundmeetup/ugm_main/)
+
+
 ## License
 
 None. `tokyo-metro-data` is public domain.
