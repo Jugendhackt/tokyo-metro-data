@@ -744,7 +744,7 @@
             {
                 "duration": 3,
                 "target_id": "E28",
-                "type": "drive"
+                "type": "ride"
             }
         ],
         "name_en": null,
@@ -3402,7 +3402,7 @@
             {
                 "duration": 2,
                 "target_id": "M06",
-                "type": "drive"
+                "type": "ride"
             }
         ],
         "name_en": null,
