@@ -1,0 +1,5107 @@
+{
+    "A01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "A02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "A01",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "A03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A03": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "A02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A05",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A06",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "A08",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A08": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "A07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A09",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A09": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A10",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E20",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A10": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A11",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "G08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A12",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H09",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A12": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A11",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "A13",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A13": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "A12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T10",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A15",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H13",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A14",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "A16",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "S09",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A16": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "A15",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "A17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A17": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "A16",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "A18",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E11",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A18": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "A17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A18",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "A20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "A20": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "A19",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z14",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C01": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C02": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C02",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "C04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C04": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "C03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C05",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "G02",
+                "type": "walk"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z02",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C06",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "C08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M14",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "N06",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "G06",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C08": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "C07",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "C09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H06",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C09": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "C08",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "C10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H07",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y18",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C10": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "C09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M18",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C12": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C11",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S07",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "M19",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C13": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "C15",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "C17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C17": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "C16",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "C18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C18": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "C17",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "C19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C19": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "C18",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "C20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "C20": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "C19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S01",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "M08",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "E27",
+                "type": "walk"
+            },
+            {
+                "duration": 3,
+                "target_id": "E28",
+                "type": "drive"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E05",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E05",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T06",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y13",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "N10",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E07": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E06",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "E08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N11",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "M11",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E08": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "E07",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E09",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "M21",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E09": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E08",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "E10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G15",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "H16",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E10": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "E09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E10",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E12": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E11",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "E13",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E13": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "E12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E13",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "E15",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z11",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E15": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "E14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E16",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T12",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E16",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E18": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E18",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E20": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E19",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E21",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E21": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E20",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E22",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E22": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E21",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E23",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E23": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E22",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E24",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E24": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E23",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E25",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z03",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "G04",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E25": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E24",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E26",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E26": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E25",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E27",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E27": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E26",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "E28",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E28": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "E27",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "E29",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E29": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "E28",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E30",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E30": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E29",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E31",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E31": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E30",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E32",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E32": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E31",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E33",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E33": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E32",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E34",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E34": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E33",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E35",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E35": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "E34",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E36",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E36": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E35",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E37",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E37": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E36",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E38",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "E38": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "E37",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "F02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y01",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "F01",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "F03",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y02",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F03": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "F02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F04",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y03",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F03",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "F05",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y04",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F05": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "F04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F06",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y05",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F07",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y06",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F08",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y07",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F09",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F09": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F08",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "F10",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y09",
+                "type": "walk"
+            },
+            {
+                "duration": 3,
+                "target_id": "M25",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F10": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "F09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F12": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F11",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "F13",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E02",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F13": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "F12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F14",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "S02",
+                "type": "walk"
+            },
+            {
+                "duration": 3,
+                "target_id": "M09",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F16",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "C03",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "F16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "F15",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "G01",
+                "type": "walk"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z01",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G01": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G02": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G01",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "G03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G03": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "G02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z03",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M13",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "N07",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z04",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y16",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G08",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G09",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G09": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G08",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "G10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G10": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "G09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T10",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "A13",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G12": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G11",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "G13",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z09",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G13": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "G12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G14",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "G16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G16": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "G15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G17",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H17",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G16",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "G18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G18": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "G17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "G19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "G18",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "A18",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H01": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H02": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H01",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H03": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "H02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H04": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "H03",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E23",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H05": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "H04",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H06": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "H05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y18",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H07",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "H09",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H09": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "H08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H10",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H10": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H12": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H11",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H13",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T11",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H13": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H14",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "H16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H16": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "H15",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "H17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G15",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H17": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "H16",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H18": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H18",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H20": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "H19",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "H21",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "H21": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "H20",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "C18",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I01": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "N01",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I02": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N01",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "I04",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "N01",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I04": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "I03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I05",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "A08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I04",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "I06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I06": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "I05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I08",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C09",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "H07",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y18",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I09": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I08",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "I10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C11",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "M18",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I10": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "I09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I11",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z07",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I12": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I11",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E07",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "N11",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "M22",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I13": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I16",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I18": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I18",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "I20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I20": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "I19",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I21",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I21": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I20",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I22",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I22": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I21",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I23",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I23": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I22",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I24",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I24": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I23",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I25",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I25": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I24",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I26",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I26": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I25",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I27",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "I27": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "I26",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "M02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "M01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M05",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M08",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E27",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M09": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M08",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "M10",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M10": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "M09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M12": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M11",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "M13",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "N08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M13": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "M12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N07",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z04",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y16",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N06",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "G06",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M16",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H06",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "C08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "H08",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "G09",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M16",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M18": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M17",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "M19",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z08",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M19": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "M18",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M20": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M19",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M21",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M21": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M20",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M22",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M22": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M21",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "M23",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M23": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "M22",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M24",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M24": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "M23",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "M25",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "M25": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "M24",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Mb03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Mb04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Mb04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Mb03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Mb05",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Mb05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Mb04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M06",
+                "type": "drive"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "N02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "N01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "E22",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N04",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "N06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N06": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "N05",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "N07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "G06",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N07": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "N06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z04",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y16",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N09",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N09": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N10",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y14",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N10": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N10",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "N12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M11",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N12": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "N11",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "N13",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N13": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "N12",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "N14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N14": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "N13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N16",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "N18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N18": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "N17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "N19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "N18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "S02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M08",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "E27",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "S01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S02",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S04": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y14",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "N09",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S04",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "S06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z06",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "T07",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S06": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "S05",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "S07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "I10",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z07",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S07": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "S06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "M19",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S07",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "S09",
+                "type": "ride"
+            },
+            {
+                "duration": 5,
+                "target_id": "H15",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S09": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "S08",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "S10",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S10": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "S09",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "S11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S11": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "S10",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "S12",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E13",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S12": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "S11",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S13",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S13": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S16",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S18": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S18",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S20": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S19",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "S21",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "S21": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "S20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T01",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T03": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T04": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T05",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T05",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "T07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y13",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "N10",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T07": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "T06",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z06",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T08": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T07",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T09",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T09": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T10",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T10": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T09",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "T11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T11": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "T10",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T12": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T11",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T13",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T13": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T12",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "T14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T14": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "T13",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T15": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T14",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T16": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T16",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T18": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T18",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T20": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T19",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "T21",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T21": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "T20",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T22",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T22": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T21",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "T23",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "T23": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "T22",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y01": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y02",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y02": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y03",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y04": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y05",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y04",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y06": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y07": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y06",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "Y08",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y08": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "Y07",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y09",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y09": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y08",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y10",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y10": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y09",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y11": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y10",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y12": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y11",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y13",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y13": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y12",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "N10",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y14": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y13",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y15",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y15": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y14",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y16",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y16": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y15",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y17",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y17": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y16",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "Y18",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y18": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "Y17",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y19",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y19": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y18",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y20",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y20": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y19",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y21",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y21": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y20",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y22",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E16",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y22": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y21",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Y23",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y23": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Y22",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y24",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Y24": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Y23",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z01": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Z02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "G01",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z02": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Z01",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z03",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "G02",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z03": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Z02",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z04": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Z03",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z05",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Y16",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z05": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Z04",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z06",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z06": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Z05",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "Z07",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z07": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "Z06",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z08",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z08": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Z07",
+                "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "Z09",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z09": {
+        "connections": [
+            {
+                "duration": 1,
+                "target_id": "Z08",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z10",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z10": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Z09",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z11",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z11": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Z10",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z12",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z12": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Z11",
+                "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z13",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "S13",
+                "type": "walk"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z13": {
+        "connections": [
+            {
+                "duration": 2,
+                "target_id": "Z12",
+                "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "Z14",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Z14": {
+        "connections": [
+            {
+                "duration": 3,
+                "target_id": "Z13",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    }
+}
