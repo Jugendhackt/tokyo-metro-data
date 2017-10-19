@@ -69,7 +69,7 @@ for relation in relations:
     matrix[two_index][one_index] = relation.stationTime;
 
 # Write the matrix in csv format
-output = open('../transitions.csv', "w+")
+output = open('../transition-matrix.csv', "w+")
 output.writelines(header_line)
 output.write('\n')
 for column in range(0, len(stations)):
