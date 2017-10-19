@@ -59,10 +59,14 @@ for transition in parse_csv(transitions.read(), ";"):
     # Exceptions where transitions.csv does not contain
     # a change, but a ride
     if (station1 == "Mb05" and station2 == "M06") or (station1 == "E01" and station2 == "E28"):
-       type = "ride"
+       type = "drive"
     else:
-        type = "change"
+        type = "walk"
 
     metro_map = add_conn(station1, station2, type, time)
 
-print(json.dumps(metro_map, sort_keys=True))
+print("Dumping...")
+file = open("../stations.json", "w+")
+file.write(json.dumps(metro_map, indent=4, sort_keys=True))
+file.close()
+

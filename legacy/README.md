@@ -37,9 +37,16 @@ I;01;27;2;2; …;2
 
 Note that empty lines and lines beginning with `#` must be ignored.
 
-## Converting Legacy to Current Format
+## Converting Legacy to Current Formats
 
-The script `legacy_to_json_graph.py` converts the legacy files to the new
+### JSON based data
+The script `legacy_to_json.py` converts the legacy files to the new
 JSON format. All unknown values are set to `null`.
 
-Make sure to change to this directory before running `python3 legacy_to_json_graph.py > graph.json`.
+Make sure to change to this directory before running `python3 legacy_to_json.py`.
+
+### Transition matrix based data
+The script `legacy_to_matrix.py` converts the legacy files to the new
+matrix transition format. All unknown values are set to `null`.
+
+Make sure to change to this directory before running `python3 legacy_to_matrix.py`.
