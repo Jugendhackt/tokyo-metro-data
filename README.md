@@ -45,7 +45,8 @@ The following is an example an entry in stations.json:
 ```
 
 ## Matrix transition format
-*Description todo*
+The transitions.csv contains the transition times in a easy to compute with matrix format.
+The header contains the the station names for each column
 
 # Projects using this data
 *Feel free to add your project!*
