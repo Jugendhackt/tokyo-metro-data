@@ -59,7 +59,7 @@ for transition in parse_csv(transitions.read(), ";"):
     # Exceptions where transitions.csv does not contain
     # a change, but a ride
     if (station1 == "Mb05" and station2 == "M06") or (station1 == "E01" and station2 == "E28"):
-       type = "drive"
+       type = "ride"
     else:
         type = "walk"
 
