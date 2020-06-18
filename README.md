@@ -51,7 +51,7 @@ The header contains the the station names for each column
 # Projects using this data
 *Feel free to add your project!*
 
-* [Underground Meetup](https://bitbucket.org/undergroundmeetup/ugm_main/)
+* [Underground Meetup](https://github.com/Jugendhackt/undergroundmeetup/)
 
 # License
 
