@@ -14,8 +14,8 @@ def station_id(char, number):
 def add_connection(metro_map):
     def inner(fro, to, type, dur):
         entry = {
-            "name_en": str(names_eng.get(fro)),
-            "name_jp": str(names_jap.get(fro)),
+            "name_en": str(stations_eng.get(fro)),
+            "name_jp": str(stations_jap.get(fro)),
             "connections": []
         }
         try:
@@ -47,11 +47,21 @@ with open("data/types.csv") as types_file:
         types[int(line[0])] = line[1]
 
 # Load station names (english)
-names_eng = {}
-names_jap = {}
-with open("data/names_eng.csv") as types_file:
+stations_eng = {}
+stations_jap = {}
+with open("data/stations_eng.csv") as types_file:
     for line in parse_csv(types_file.read(), ","):
-        names_eng[station_id(line[0], int(line[1]))] = line[2]
+        stations_eng[station_id(line[0], int(line[1]))] = line[2]
+
+# Load line names (english)
+lines_names = {}
+with open("data/lines_eng.csv", encoding="utf8") as lines_file:
+    for line in parse_csv(lines_file.read(), ","):
+        lines_names[line[0]] = {}
+        lines_names[line[0]]["name_en"] = line[1]
+with open("data/lines_jap.csv", encoding="utf8") as lines_file:
+    for line in parse_csv(lines_file.read(), ","):
+        lines_names[line[0]]["name_jp"] = line[1]
 
 # Structure to hold the read information
 # This will be dumped as stations.json at the end
@@ -85,9 +95,10 @@ for transition in parse_csv(transitions.read(), ","):
 
 print("Dumping...")
 dumpformat = {}
-dumpformat["transition_types"] = types
+dumpformat["lines"] = lines_names
 dumpformat["stations"] = metro_map
-file = open("stations.json", "w+")
+dumpformat["transition_types"] = types
+file = open("stations.json", "w+", encoding="utf8")
 file.write(json.dumps(dumpformat, indent=4, sort_keys=True))
 file.close()
 
