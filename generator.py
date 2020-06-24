@@ -25,7 +25,8 @@ def add_connection(metro_map):
 
         conn = {
             "target_id": to,
-            "type": type,
+            "type_id": type,
+            "type": types.get(type),
             "duration": dur
         }
         entry["connections"] += [conn]
@@ -68,8 +69,8 @@ for line in parse_csv(lines.read(), ","):
         time = rides[station_number - first]
         station_a = station_id(char, station_number)
         station_b = station_id(char, station_number + 1)
-        metro_map = add_conn(station_a, station_b, types[default_type], time)
-        metro_map = add_conn(station_b, station_a, types[default_type], time)
+        metro_map = add_conn(station_a, station_b, default_type, time)
+        metro_map = add_conn(station_b, station_a, default_type, time)
 
 # Read transitions.csv and append all transitions to metro_map
 # Line format is: From Station Letter, From Station Number, To Station Letter, To Station Number, type, duration
@@ -79,8 +80,8 @@ for transition in parse_csv(transitions.read(), ","):
     type = int(transition[4])
     time = int(transition[5])
 
-    metro_map = add_conn(station1, station2, types[type], time)
-    metro_map = add_conn(station2, station1, types[type], time)
+    metro_map = add_conn(station1, station2, type, time)
+    metro_map = add_conn(station2, station1, type, time)
 
 print("Dumping...")
 file = open("stations.json", "w+")
