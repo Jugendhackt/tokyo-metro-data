@@ -14,7 +14,7 @@ or lines with forks.
 The format is:
 
 ```
-From Station Letter, From Station Number, To Station Letter, To Station Number, Transition Type, Duration
+From Station Letter, From Station Number, To Station Letter, To Station Number, Transition Type, Distance
 ```
 
 Example for a train based connection from F01 to Y01 that takes 60 seconds.
@@ -29,7 +29,7 @@ Details which stations a line has and how long the it takes to travel from one t
 The format is:
 
 ```
-Line Name, First station's number, Last station's number, time from first station to second, time from second station to third station, ..., time from second-last to last station
+Line Name, First station's number, Last station's number, distance from first station to km, distance from second station to third station, ..., distance from second-last to last station
 ```
 
 Example:
@@ -49,7 +49,3 @@ List with names of Lines in english and japanese.
 ## stations_eng/jap.csv
 
 List with names of stations in english and japanese.
-
-
-
-```
