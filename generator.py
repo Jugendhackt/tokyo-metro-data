@@ -84,7 +84,10 @@ for transition in parse_csv(transitions.read(), ","):
     metro_map = add_conn(station2, station1, type, time)
 
 print("Dumping...")
+dumpformat = {}
+dumpformat["transition_types"] = types
+dumpformat["stations"] = metro_map
 file = open("stations.json", "w+")
-file.write(json.dumps(metro_map, indent=4, sort_keys=True))
+file.write(json.dumps(dumpformat, indent=4, sort_keys=True))
 file.close()
 
