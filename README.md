@@ -33,31 +33,36 @@ The following should explain stations.json:
         "E27": {
             "connections": [
                 {
-                    "duration": 0,
+                    "distance": 0.6,
+                    "duration": -1,
                     "target_id": "E26",
                     "type": "ride",
                     "type_id": 1
                 },
                 {
-                    "duration": 0,
+                    "distance": 0.8,
+                    "duration": -1,
                     "target_id": "E28",
                     "type": "ride",
                     "type_id": 1
                 },
                 {
-                    "duration": 0,
+                    "distance": 0.0,
+                    "duration": -1,
                     "target_id": "E01",
                     "type": "walk",
                     "type_id": 0
                 },
                 {
-                    "duration": 0,
+                    "distance": 0.0,
+                    "duration": -1,
                     "target_id": "S01",
                     "type": "walk",
                     "type_id": 0
                 },
                 {
-                    "duration": 0,
+                    "distance": 0.0,
+                    "duration": -1,
                     "target_id": "M08",
                     "type": "walk",
                     "type_id": 0
@@ -81,8 +86,8 @@ The following should explain stations.json:
 As of yet there are a few things missing:
 
 - [x] Adding all japanese station names to [stations_jap.csv](data/stations_jap.csv)
-- [ ] Replace duration with distance
-- [ ] Add durations (listed on wikipedia)
+- [x] Replace duration with distance
+- [x] Add distance (listed on wikipedia)
 - [ ] Add a transition like file for duration
 - [ ] General code cleanup in generator.py (maybe some progress output?)
 - [ ] Adding connections to non-metro transport systems (e.g. train stations or airports)
