@@ -64,7 +64,7 @@ The following should explain stations.json:
                 }
             ],
             "name_en": "Shinjuku",
-            "name_jp": "None"
+            "name_jp": "新宿"
         },
         ...
     },
