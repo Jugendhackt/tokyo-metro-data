@@ -14,8 +14,8 @@ def station_id(char, number):
 def add_connection(metro_map):
     def inner(fro, to, type, dur):
         entry = {
-            "name_en": None,
-            "name_jp": None,
+            "name_en": str(names_eng.get(fro)),
+            "name_jp": str(names_jap.get(fro)),
             "connections": []
         }
         try:
@@ -44,6 +44,13 @@ types = {}
 with open("data/types.csv") as types_file:
     for line in parse_csv(types_file.read(), ","):
         types[int(line[0])] = line[1]
+
+# Load station names (english)
+names_eng = {}
+names_jap = {}
+with open("data/names_eng.csv") as types_file:
+    for line in parse_csv(types_file.read(), ","):
+        names_eng[station_id(line[0], int(line[1]))] = line[2]
 
 # Structure to hold the read information
 # This will be dumped as stations.json at the end
