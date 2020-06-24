@@ -99,6 +99,6 @@ dumpformat["lines"] = lines_names
 dumpformat["stations"] = metro_map
 dumpformat["transition_types"] = types
 file = open("stations.json", "w+", encoding="utf8")
-file.write(json.dumps(dumpformat, indent=4, sort_keys=True))
+file.write(json.dumps(dumpformat, indent=4, sort_keys=True, ensure_ascii=False))
 file.close()
 
