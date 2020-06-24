@@ -36,22 +36,25 @@ def add_connection(metro_map):
     return inner
 
 # Open source files
-transitions = open("data/transitions.csv")
-lines = open("data/lines.csv")
+transitions = open("data/transitions.csv", encoding="utf8")
+lines = open("data/lines.csv", encoding="utf8")
 
 # Load transition types
 default_type = 1
 types = {}
-with open("data/types.csv") as types_file:
+with open("data/types.csv", encoding="utf8") as types_file:
     for line in parse_csv(types_file.read(), ","):
         types[int(line[0])] = line[1]
 
 # Load station names (english)
 stations_eng = {}
 stations_jap = {}
-with open("data/stations_eng.csv") as types_file:
+with open("data/stations_eng.csv", encoding="utf8") as types_file:
     for line in parse_csv(types_file.read(), ","):
         stations_eng[station_id(line[0], int(line[1]))] = line[2]
+with open("data/stations_jap.csv", encoding="utf8") as types_file:
+    for line in parse_csv(types_file.read(), ","):
+        stations_jap[station_id(line[0], int(line[1]))] = line[2]
 
 # Load line names (english)
 lines_names = {}
