@@ -32,13 +32,13 @@ def add_connection(metro_map):
 
     return inner
 
-transitions = open("transitions.csv")
-lines = open("lines.csv")
+transitions = open("data/transitions.csv")
+lines = open("data/lines.csv")
 
 metro_map = {}
 add_conn = add_connection(metro_map)
 
-for line in parse_csv(lines.read(), ";"):
+for line in parse_csv(lines.read(), ","):
     char = line[0]
     first = int(line[1])
     last = int(line[2])
@@ -51,7 +51,7 @@ for line in parse_csv(lines.read(), ";"):
         metro_map = add_conn(station_a, station_b, "ride", time)
         metro_map = add_conn(station_b, station_a, "ride", time)
 
-for transition in parse_csv(transitions.read(), ";"):
+for transition in parse_csv(transitions.read(), ","):
     station1 = station_id(transition[0], int(transition[1]))
     station2 = station_id(transition[2], int(transition[3]))
     time = int(transition[4])
@@ -66,7 +66,7 @@ for transition in parse_csv(transitions.read(), ";"):
     metro_map = add_conn(station1, station2, type, time)
 
 print("Dumping...")
-file = open("../stations.json", "w+")
+file = open("stations.json", "w+")
 file.write(json.dumps(metro_map, indent=4, sort_keys=True))
 file.close()
 
