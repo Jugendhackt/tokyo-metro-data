@@ -54,7 +54,7 @@ for line in parse_csv(lines.read(), ","):
 for transition in parse_csv(transitions.read(), ","):
     station1 = station_id(transition[1], int(transition[2]))
     station2 = station_id(transition[3], int(transition[4]))
-    time = int(transition[4])
+    time = int(transition[5])
 
     # Type of transition
     type = "unknown"
