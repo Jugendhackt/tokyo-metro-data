@@ -117,6 +117,11 @@
                 "duration": 0,
                 "target_id": "A09",
                 "type": "ride"
+            },
+            {
+                "duration": 8,
+                "target_id": "I04",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -212,6 +217,11 @@
                 "duration": 0,
                 "target_id": "A14",
                 "type": "ride"
+            },
+            {
+                "duration": 13,
+                "target_id": "G11",
+                "type": "walk"
             },
             {
                 "duration": 10,
@@ -312,6 +322,11 @@
                 "duration": 0,
                 "target_id": "A19",
                 "type": "ride"
+            },
+            {
+                "duration": 18,
+                "target_id": "G19",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -387,6 +402,11 @@
                 "duration": 0,
                 "target_id": "C04",
                 "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "F15",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -494,6 +514,11 @@
                 "type": "ride"
             },
             {
+                "duration": 8,
+                "target_id": "M15",
+                "type": "walk"
+            },
+            {
                 "duration": 6,
                 "target_id": "H06",
                 "type": "walk"
@@ -513,6 +538,11 @@
                 "duration": 0,
                 "target_id": "C10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "I08",
+                "type": "walk"
             },
             {
                 "duration": 7,
@@ -555,6 +585,11 @@
                 "duration": 0,
                 "target_id": "C12",
                 "type": "ride"
+            },
+            {
+                "duration": 11,
+                "target_id": "I09",
+                "type": "walk"
             },
             {
                 "duration": 18,
@@ -687,6 +722,11 @@
                 "duration": 0,
                 "target_id": "C19",
                 "type": "ride"
+            },
+            {
+                "duration": 18,
+                "target_id": "H21",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -761,6 +801,11 @@
                 "duration": 0,
                 "target_id": "E03",
                 "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F12",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -858,6 +903,11 @@
                 "type": "ride"
             },
             {
+                "duration": 7,
+                "target_id": "I12",
+                "type": "walk"
+            },
+            {
                 "duration": 11,
                 "target_id": "N11",
                 "type": "walk"
@@ -945,6 +995,11 @@
                 "duration": 0,
                 "target_id": "E12",
                 "type": "ride"
+            },
+            {
+                "duration": 11,
+                "target_id": "A17",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -977,6 +1032,11 @@
                 "duration": 0,
                 "target_id": "E14",
                 "type": "ride"
+            },
+            {
+                "duration": 13,
+                "target_id": "S11",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1035,6 +1095,11 @@
                 "duration": 0,
                 "target_id": "E17",
                 "type": "ride"
+            },
+            {
+                "duration": 16,
+                "target_id": "Y21",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1099,6 +1164,11 @@
                 "duration": 0,
                 "target_id": "E21",
                 "type": "ride"
+            },
+            {
+                "duration": 20,
+                "target_id": "A09",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1131,6 +1201,11 @@
                 "duration": 0,
                 "target_id": "E23",
                 "type": "ride"
+            },
+            {
+                "duration": 22,
+                "target_id": "N04",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1147,6 +1222,11 @@
                 "duration": 0,
                 "target_id": "E24",
                 "type": "ride"
+            },
+            {
+                "duration": 23,
+                "target_id": "H04",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1221,6 +1301,21 @@
                 "duration": 0,
                 "target_id": "E28",
                 "type": "ride"
+            },
+            {
+                "duration": 27,
+                "target_id": "E01",
+                "type": "walk"
+            },
+            {
+                "duration": 27,
+                "target_id": "S01",
+                "type": "walk"
+            },
+            {
+                "duration": 27,
+                "target_id": "M08",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1236,6 +1331,11 @@
             {
                 "duration": 0,
                 "target_id": "E29",
+                "type": "ride"
+            },
+            {
+                "duration": 28,
+                "target_id": "E01",
                 "type": "ride"
             }
         ],
@@ -1729,6 +1829,16 @@
                 "duration": 0,
                 "target_id": "G02",
                 "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "F16",
+                "type": "walk"
+            },
+            {
+                "duration": 1,
+                "target_id": "Z01",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1745,6 +1855,16 @@
                 "duration": 0,
                 "target_id": "G03",
                 "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "C04",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
+                "target_id": "Z02",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1777,6 +1897,11 @@
                 "duration": 0,
                 "target_id": "G05",
                 "type": "ride"
+            },
+            {
+                "duration": 4,
+                "target_id": "E24",
+                "type": "walk"
             },
             {
                 "duration": 3,
@@ -1834,6 +1959,21 @@
                 "duration": 0,
                 "target_id": "G07",
                 "type": "ride"
+            },
+            {
+                "duration": 6,
+                "target_id": "C07",
+                "type": "walk"
+            },
+            {
+                "duration": 6,
+                "target_id": "M14",
+                "type": "walk"
+            },
+            {
+                "duration": 6,
+                "target_id": "N06",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1866,6 +2006,11 @@
                 "duration": 0,
                 "target_id": "G09",
                 "type": "ride"
+            },
+            {
+                "duration": 8,
+                "target_id": "A10",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -1882,6 +2027,11 @@
                 "duration": 0,
                 "target_id": "G10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "M16",
+                "type": "walk"
             },
             {
                 "duration": 8,
@@ -1998,6 +2148,16 @@
                 "duration": 0,
                 "target_id": "G16",
                 "type": "ride"
+            },
+            {
+                "duration": 15,
+                "target_id": "E09",
+                "type": "walk"
+            },
+            {
+                "duration": 15,
+                "target_id": "H16",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -2163,6 +2323,16 @@
                 "duration": 0,
                 "target_id": "H07",
                 "type": "ride"
+            },
+            {
+                "duration": 6,
+                "target_id": "M15",
+                "type": "walk"
+            },
+            {
+                "duration": 6,
+                "target_id": "C08",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -2179,6 +2349,16 @@
                 "duration": 0,
                 "target_id": "H08",
                 "type": "ride"
+            },
+            {
+                "duration": 7,
+                "target_id": "I08",
+                "type": "walk"
+            },
+            {
+                "duration": 7,
+                "target_id": "C09",
+                "type": "walk"
             },
             {
                 "duration": 18,
@@ -2200,6 +2380,16 @@
                 "duration": 0,
                 "target_id": "H09",
                 "type": "ride"
+            },
+            {
+                "duration": 8,
+                "target_id": "M16",
+                "type": "walk"
+            },
+            {
+                "duration": 8,
+                "target_id": "G09",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -2216,6 +2406,11 @@
                 "duration": 0,
                 "target_id": "H10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "A11",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -2285,6 +2480,11 @@
                 "duration": 0,
                 "target_id": "H14",
                 "type": "ride"
+            },
+            {
+                "duration": 13,
+                "target_id": "A14",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -2317,6 +2517,11 @@
                 "duration": 0,
                 "target_id": "H16",
                 "type": "ride"
+            },
+            {
+                "duration": 15,
+                "target_id": "S08",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -2333,6 +2538,11 @@
                 "duration": 0,
                 "target_id": "H17",
                 "type": "ride"
+            },
+            {
+                "duration": 16,
+                "target_id": "E09",
+                "type": "walk"
             },
             {
                 "duration": 15,
@@ -2354,6 +2564,11 @@
                 "duration": 0,
                 "target_id": "H18",
                 "type": "ride"
+            },
+            {
+                "duration": 17,
+                "target_id": "G16",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -2623,6 +2838,11 @@
                 "duration": 0,
                 "target_id": "I11",
                 "type": "ride"
+            },
+            {
+                "duration": 10,
+                "target_id": "S06",
+                "type": "walk"
             },
             {
                 "duration": 7,
@@ -3001,6 +3221,11 @@
                 "duration": 0,
                 "target_id": "M07",
                 "type": "ride"
+            },
+            {
+                "duration": 6,
+                "target_id": "Mb05",
+                "type": "ride"
             }
         ],
         "name_en": null,
@@ -3035,6 +3260,16 @@
                 "type": "ride"
             },
             {
+                "duration": 8,
+                "target_id": "E01",
+                "type": "walk"
+            },
+            {
+                "duration": 8,
+                "target_id": "S01",
+                "type": "walk"
+            },
+            {
                 "duration": 27,
                 "target_id": "E27",
                 "type": "walk"
@@ -3054,6 +3289,11 @@
                 "duration": 0,
                 "target_id": "M10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "F13",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3086,6 +3326,16 @@
                 "duration": 0,
                 "target_id": "M12",
                 "type": "ride"
+            },
+            {
+                "duration": 11,
+                "target_id": "E07",
+                "type": "walk"
+            },
+            {
+                "duration": 11,
+                "target_id": "N11",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3125,6 +3375,11 @@
                 "type": "ride"
             },
             {
+                "duration": 13,
+                "target_id": "G05",
+                "type": "walk"
+            },
+            {
                 "duration": 7,
                 "target_id": "N07",
                 "type": "walk"
@@ -3154,6 +3409,11 @@
                 "duration": 0,
                 "target_id": "M15",
                 "type": "ride"
+            },
+            {
+                "duration": 14,
+                "target_id": "C07",
+                "type": "walk"
             },
             {
                 "duration": 6,
@@ -3250,6 +3510,16 @@
                 "type": "ride"
             },
             {
+                "duration": 18,
+                "target_id": "I09",
+                "type": "walk"
+            },
+            {
+                "duration": 18,
+                "target_id": "C11",
+                "type": "walk"
+            },
+            {
                 "duration": 8,
                 "target_id": "Z08",
                 "type": "walk"
@@ -3269,6 +3539,16 @@
                 "duration": 0,
                 "target_id": "M20",
                 "type": "ride"
+            },
+            {
+                "duration": 19,
+                "target_id": "C12",
+                "type": "walk"
+            },
+            {
+                "duration": 19,
+                "target_id": "S07",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3301,6 +3581,11 @@
                 "duration": 0,
                 "target_id": "M22",
                 "type": "ride"
+            },
+            {
+                "duration": 21,
+                "target_id": "E08",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3317,6 +3602,11 @@
                 "duration": 0,
                 "target_id": "M23",
                 "type": "ride"
+            },
+            {
+                "duration": 22,
+                "target_id": "I12",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3360,6 +3650,11 @@
                 "duration": 0,
                 "target_id": "M24",
                 "type": "ride"
+            },
+            {
+                "duration": 25,
+                "target_id": "F09",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3414,6 +3709,21 @@
                 "duration": 0,
                 "target_id": "N02",
                 "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "I01",
+                "type": "walk"
+            },
+            {
+                "duration": 1,
+                "target_id": "I02",
+                "type": "walk"
+            },
+            {
+                "duration": 1,
+                "target_id": "I03",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3502,6 +3812,16 @@
             },
             {
                 "duration": 6,
+                "target_id": "C07",
+                "type": "walk"
+            },
+            {
+                "duration": 6,
+                "target_id": "M14",
+                "type": "walk"
+            },
+            {
+                "duration": 6,
                 "target_id": "G06",
                 "type": "walk"
             }
@@ -3520,6 +3840,16 @@
                 "duration": 0,
                 "target_id": "N08",
                 "type": "ride"
+            },
+            {
+                "duration": 7,
+                "target_id": "G05",
+                "type": "walk"
+            },
+            {
+                "duration": 7,
+                "target_id": "M13",
+                "type": "walk"
             },
             {
                 "duration": 4,
@@ -3546,6 +3876,11 @@
                 "duration": 0,
                 "target_id": "N09",
                 "type": "ride"
+            },
+            {
+                "duration": 8,
+                "target_id": "M12",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3562,6 +3897,11 @@
                 "duration": 0,
                 "target_id": "N10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "S04",
+                "type": "walk"
             },
             {
                 "duration": 14,
@@ -3583,6 +3923,21 @@
                 "duration": 0,
                 "target_id": "N11",
                 "type": "ride"
+            },
+            {
+                "duration": 10,
+                "target_id": "E06",
+                "type": "walk"
+            },
+            {
+                "duration": 10,
+                "target_id": "T06",
+                "type": "walk"
+            },
+            {
+                "duration": 10,
+                "target_id": "Y13",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3599,6 +3954,16 @@
                 "duration": 0,
                 "target_id": "N12",
                 "type": "ride"
+            },
+            {
+                "duration": 11,
+                "target_id": "I12",
+                "type": "walk"
+            },
+            {
+                "duration": 11,
+                "target_id": "E07",
+                "type": "walk"
             },
             {
                 "duration": 11,
@@ -3740,6 +4105,11 @@
                 "type": "ride"
             },
             {
+                "duration": 1,
+                "target_id": "E01",
+                "type": "walk"
+            },
+            {
                 "duration": 8,
                 "target_id": "M08",
                 "type": "walk"
@@ -3764,6 +4134,11 @@
                 "duration": 0,
                 "target_id": "S03",
                 "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F13",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3876,6 +4251,11 @@
                 "type": "ride"
             },
             {
+                "duration": 7,
+                "target_id": "C12",
+                "type": "walk"
+            },
+            {
                 "duration": 19,
                 "target_id": "M19",
                 "type": "walk"
@@ -3916,6 +4296,11 @@
                 "duration": 0,
                 "target_id": "S10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "A15",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -3985,6 +4370,11 @@
                 "duration": 0,
                 "target_id": "S14",
                 "type": "ride"
+            },
+            {
+                "duration": 13,
+                "target_id": "Z12",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4201,6 +4591,11 @@
                 "type": "ride"
             },
             {
+                "duration": 6,
+                "target_id": "E06",
+                "type": "walk"
+            },
+            {
                 "duration": 13,
                 "target_id": "Y13",
                 "type": "walk"
@@ -4225,6 +4620,11 @@
                 "duration": 0,
                 "target_id": "T08",
                 "type": "ride"
+            },
+            {
+                "duration": 7,
+                "target_id": "S05",
+                "type": "walk"
             },
             {
                 "duration": 6,
@@ -4278,6 +4678,16 @@
                 "duration": 0,
                 "target_id": "T11",
                 "type": "ride"
+            },
+            {
+                "duration": 10,
+                "target_id": "G11",
+                "type": "walk"
+            },
+            {
+                "duration": 10,
+                "target_id": "A13",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4294,6 +4704,11 @@
                 "duration": 0,
                 "target_id": "T12",
                 "type": "ride"
+            },
+            {
+                "duration": 11,
+                "target_id": "H12",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4310,6 +4725,11 @@
                 "duration": 0,
                 "target_id": "T13",
                 "type": "ride"
+            },
+            {
+                "duration": 12,
+                "target_id": "E15",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4492,6 +4912,11 @@
                 "duration": 0,
                 "target_id": "Y02",
                 "type": "ride"
+            },
+            {
+                "duration": 1,
+                "target_id": "F01",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4508,6 +4933,11 @@
                 "duration": 0,
                 "target_id": "Y03",
                 "type": "ride"
+            },
+            {
+                "duration": 2,
+                "target_id": "F02",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4524,6 +4954,11 @@
                 "duration": 0,
                 "target_id": "Y04",
                 "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "F03",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4540,6 +4975,11 @@
                 "duration": 0,
                 "target_id": "Y05",
                 "type": "ride"
+            },
+            {
+                "duration": 4,
+                "target_id": "F04",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4556,6 +4996,11 @@
                 "duration": 0,
                 "target_id": "Y06",
                 "type": "ride"
+            },
+            {
+                "duration": 5,
+                "target_id": "F05",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4572,6 +5017,11 @@
                 "duration": 0,
                 "target_id": "Y07",
                 "type": "ride"
+            },
+            {
+                "duration": 6,
+                "target_id": "F06",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4588,6 +5038,11 @@
                 "duration": 0,
                 "target_id": "Y08",
                 "type": "ride"
+            },
+            {
+                "duration": 7,
+                "target_id": "F07",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4604,6 +5059,11 @@
                 "duration": 0,
                 "target_id": "Y09",
                 "type": "ride"
+            },
+            {
+                "duration": 8,
+                "target_id": "F08",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4620,6 +5080,11 @@
                 "duration": 0,
                 "target_id": "Y10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "F09",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4686,6 +5151,16 @@
                 "type": "ride"
             },
             {
+                "duration": 13,
+                "target_id": "E06",
+                "type": "walk"
+            },
+            {
+                "duration": 13,
+                "target_id": "T06",
+                "type": "walk"
+            },
+            {
                 "duration": 10,
                 "target_id": "N10",
                 "type": "walk"
@@ -4705,6 +5180,16 @@
                 "duration": 0,
                 "target_id": "Y15",
                 "type": "ride"
+            },
+            {
+                "duration": 14,
+                "target_id": "S04",
+                "type": "walk"
+            },
+            {
+                "duration": 14,
+                "target_id": "N09",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4737,6 +5222,26 @@
                 "duration": 0,
                 "target_id": "Y17",
                 "type": "ride"
+            },
+            {
+                "duration": 16,
+                "target_id": "G05",
+                "type": "walk"
+            },
+            {
+                "duration": 16,
+                "target_id": "M13",
+                "type": "walk"
+            },
+            {
+                "duration": 16,
+                "target_id": "N07",
+                "type": "walk"
+            },
+            {
+                "duration": 16,
+                "target_id": "Z04",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4769,6 +5274,21 @@
                 "duration": 0,
                 "target_id": "Y19",
                 "type": "ride"
+            },
+            {
+                "duration": 18,
+                "target_id": "I08",
+                "type": "walk"
+            },
+            {
+                "duration": 18,
+                "target_id": "C09",
+                "type": "walk"
+            },
+            {
+                "duration": 18,
+                "target_id": "H07",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4879,6 +5399,11 @@
             },
             {
                 "duration": 1,
+                "target_id": "F16",
+                "type": "walk"
+            },
+            {
+                "duration": 1,
                 "target_id": "G01",
                 "type": "walk"
             }
@@ -4900,6 +5425,11 @@
             },
             {
                 "duration": 2,
+                "target_id": "C04",
+                "type": "walk"
+            },
+            {
+                "duration": 2,
                 "target_id": "G02",
                 "type": "walk"
             }
@@ -4918,6 +5448,16 @@
                 "duration": 0,
                 "target_id": "Z04",
                 "type": "ride"
+            },
+            {
+                "duration": 3,
+                "target_id": "E24",
+                "type": "walk"
+            },
+            {
+                "duration": 3,
+                "target_id": "G04",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4934,6 +5474,21 @@
                 "duration": 0,
                 "target_id": "Z05",
                 "type": "ride"
+            },
+            {
+                "duration": 4,
+                "target_id": "G05",
+                "type": "walk"
+            },
+            {
+                "duration": 4,
+                "target_id": "M13",
+                "type": "walk"
+            },
+            {
+                "duration": 4,
+                "target_id": "N07",
+                "type": "walk"
             },
             {
                 "duration": 16,
@@ -4971,6 +5526,16 @@
                 "duration": 0,
                 "target_id": "Z07",
                 "type": "ride"
+            },
+            {
+                "duration": 6,
+                "target_id": "S05",
+                "type": "walk"
+            },
+            {
+                "duration": 6,
+                "target_id": "T07",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -4987,6 +5552,16 @@
                 "duration": 0,
                 "target_id": "Z08",
                 "type": "ride"
+            },
+            {
+                "duration": 7,
+                "target_id": "S06",
+                "type": "walk"
+            },
+            {
+                "duration": 7,
+                "target_id": "I10",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -5003,6 +5578,21 @@
                 "duration": 0,
                 "target_id": "Z09",
                 "type": "ride"
+            },
+            {
+                "duration": 8,
+                "target_id": "I09",
+                "type": "walk"
+            },
+            {
+                "duration": 8,
+                "target_id": "C11",
+                "type": "walk"
+            },
+            {
+                "duration": 8,
+                "target_id": "M18",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -5019,6 +5609,11 @@
                 "duration": 0,
                 "target_id": "Z10",
                 "type": "ride"
+            },
+            {
+                "duration": 9,
+                "target_id": "G12",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -5051,6 +5646,11 @@
                 "duration": 0,
                 "target_id": "Z12",
                 "type": "ride"
+            },
+            {
+                "duration": 11,
+                "target_id": "E14",
+                "type": "walk"
             }
         ],
         "name_en": null,
@@ -5099,6 +5699,11 @@
                 "duration": 0,
                 "target_id": "Z13",
                 "type": "ride"
+            },
+            {
+                "duration": 14,
+                "target_id": "A20",
+                "type": "walk"
             }
         ],
         "name_en": null,

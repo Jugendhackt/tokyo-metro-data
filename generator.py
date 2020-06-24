@@ -64,6 +64,7 @@ for transition in parse_csv(transitions.read(), ","):
         type = "walk"
 
     metro_map = add_conn(station1, station2, type, time)
+    metro_map = add_conn(station2, station1, type, time)
 
 print("Dumping...")
 file = open("stations.json", "w+")
