@@ -52,13 +52,13 @@ for line in parse_csv(lines.read(), ","):
         metro_map = add_conn(station_b, station_a, "ride", time)
 
 for transition in parse_csv(transitions.read(), ","):
-    station1 = station_id(transition[0], int(transition[1]))
-    station2 = station_id(transition[2], int(transition[3]))
+    station1 = station_id(transition[1], int(transition[2]))
+    station2 = station_id(transition[3], int(transition[4]))
     time = int(transition[4])
 
-    # Exceptions where transitions.csv does not contain
-    # a change, but a ride
-    if (station1 == "Mb05" and station2 == "M06") or (station1 == "E01" and station2 == "E28"):
+    # Type of transition
+    type = "unknown"
+    if int(transition[0]) == 1:
        type = "ride"
     else:
         type = "walk"
