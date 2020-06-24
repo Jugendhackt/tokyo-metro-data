@@ -2,7 +2,7 @@
     "A01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "A02",
                 "type": "ride"
             }
@@ -13,12 +13,12 @@
     "A02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "A01",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A03",
                 "type": "ride"
             }
@@ -29,12 +29,12 @@
     "A03": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A04",
                 "type": "ride"
             }
@@ -45,12 +45,12 @@
     "A04": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A05",
                 "type": "ride"
             }
@@ -61,12 +61,12 @@
     "A05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A06",
                 "type": "ride"
             }
@@ -77,12 +77,12 @@
     "A06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A07",
                 "type": "ride"
             }
@@ -93,12 +93,12 @@
     "A07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A06",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "A08",
                 "type": "ride"
             }
@@ -109,12 +109,12 @@
     "A08": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "A07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A09",
                 "type": "ride"
             }
@@ -125,17 +125,17 @@
     "A09": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A10",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E20",
                 "type": "walk"
             }
@@ -146,17 +146,17 @@
     "A10": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A11",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "G08",
                 "type": "walk"
             }
@@ -167,17 +167,17 @@
     "A11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A12",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H09",
                 "type": "walk"
             }
@@ -188,12 +188,12 @@
     "A12": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A11",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A13",
                 "type": "ride"
             }
@@ -204,17 +204,17 @@
     "A13": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T10",
                 "type": "walk"
             }
@@ -225,17 +225,17 @@
     "A14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A15",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H13",
                 "type": "walk"
             }
@@ -246,17 +246,17 @@
     "A15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A14",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A16",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "S09",
                 "type": "walk"
             }
@@ -267,12 +267,12 @@
     "A16": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A15",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A17",
                 "type": "ride"
             }
@@ -283,17 +283,17 @@
     "A17": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A16",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A18",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E11",
                 "type": "walk"
             }
@@ -304,12 +304,12 @@
     "A18": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "A17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A19",
                 "type": "ride"
             }
@@ -320,12 +320,12 @@
     "A19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A18",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A20",
                 "type": "ride"
             }
@@ -336,12 +336,12 @@
     "A20": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A19",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z14",
                 "type": "walk"
             }
@@ -352,7 +352,7 @@
     "C01": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C02",
                 "type": "ride"
             }
@@ -363,12 +363,12 @@
     "C02": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C03",
                 "type": "ride"
             }
@@ -379,12 +379,12 @@
     "C03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C02",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "C04",
                 "type": "ride"
             }
@@ -395,22 +395,22 @@
     "C04": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "C03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C05",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "G02",
                 "type": "walk"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z02",
                 "type": "walk"
             }
@@ -421,12 +421,12 @@
     "C05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C06",
                 "type": "ride"
             }
@@ -437,12 +437,12 @@
     "C06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C07",
                 "type": "ride"
             }
@@ -453,27 +453,27 @@
     "C07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C06",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "C08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M14",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N06",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G06",
                 "type": "walk"
             }
@@ -484,17 +484,17 @@
     "C08": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "C07",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H06",
                 "type": "walk"
             }
@@ -505,22 +505,22 @@
     "C09": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C08",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "C10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H07",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y18",
                 "type": "walk"
             }
@@ -531,12 +531,12 @@
     "C10": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "C09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C11",
                 "type": "ride"
             }
@@ -547,22 +547,22 @@
     "C11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M18",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z08",
                 "type": "walk"
             }
@@ -573,22 +573,22 @@
     "C12": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C11",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S07",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M19",
                 "type": "walk"
             }
@@ -599,12 +599,12 @@
     "C13": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C14",
                 "type": "ride"
             }
@@ -615,12 +615,12 @@
     "C14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C15",
                 "type": "ride"
             }
@@ -631,12 +631,12 @@
     "C15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C16",
                 "type": "ride"
             }
@@ -647,12 +647,12 @@
     "C16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C15",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C17",
                 "type": "ride"
             }
@@ -663,12 +663,12 @@
     "C17": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C16",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C18",
                 "type": "ride"
             }
@@ -679,12 +679,12 @@
     "C18": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C17",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C19",
                 "type": "ride"
             }
@@ -695,12 +695,12 @@
     "C19": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C18",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C20",
                 "type": "ride"
             }
@@ -711,7 +711,7 @@
     "C20": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C19",
                 "type": "ride"
             }
@@ -722,27 +722,27 @@
     "E01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S01",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M08",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E27",
                 "type": "walk"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E28",
                 "type": "ride"
             }
@@ -753,12 +753,12 @@
     "E02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E03",
                 "type": "ride"
             }
@@ -769,12 +769,12 @@
     "E03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E04",
                 "type": "ride"
             }
@@ -785,12 +785,12 @@
     "E04": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E05",
                 "type": "ride"
             }
@@ -801,12 +801,12 @@
     "E05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E06",
                 "type": "ride"
             }
@@ -817,27 +817,27 @@
     "E06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E05",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T06",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y13",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N10",
                 "type": "walk"
             }
@@ -848,22 +848,22 @@
     "E07": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E06",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N11",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M11",
                 "type": "walk"
             }
@@ -874,17 +874,17 @@
     "E08": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E07",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E09",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M21",
                 "type": "walk"
             }
@@ -895,22 +895,22 @@
     "E09": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E08",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G15",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H16",
                 "type": "walk"
             }
@@ -921,12 +921,12 @@
     "E10": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E11",
                 "type": "ride"
             }
@@ -937,12 +937,12 @@
     "E11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E10",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E12",
                 "type": "ride"
             }
@@ -953,12 +953,12 @@
     "E12": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E11",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E13",
                 "type": "ride"
             }
@@ -969,12 +969,12 @@
     "E13": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E14",
                 "type": "ride"
             }
@@ -985,17 +985,17 @@
     "E14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E13",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E15",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z11",
                 "type": "walk"
             }
@@ -1006,17 +1006,17 @@
     "E15": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E16",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T12",
                 "type": "walk"
             }
@@ -1027,12 +1027,12 @@
     "E16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E17",
                 "type": "ride"
             }
@@ -1043,12 +1043,12 @@
     "E17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E16",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E18",
                 "type": "ride"
             }
@@ -1059,12 +1059,12 @@
     "E18": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E19",
                 "type": "ride"
             }
@@ -1075,12 +1075,12 @@
     "E19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E18",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E20",
                 "type": "ride"
             }
@@ -1091,12 +1091,12 @@
     "E20": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E19",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E21",
                 "type": "ride"
             }
@@ -1107,12 +1107,12 @@
     "E21": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E20",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E22",
                 "type": "ride"
             }
@@ -1123,12 +1123,12 @@
     "E22": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E21",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E23",
                 "type": "ride"
             }
@@ -1139,12 +1139,12 @@
     "E23": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E22",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E24",
                 "type": "ride"
             }
@@ -1155,22 +1155,22 @@
     "E24": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E23",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E25",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z03",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G04",
                 "type": "walk"
             }
@@ -1181,12 +1181,12 @@
     "E25": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E24",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E26",
                 "type": "ride"
             }
@@ -1197,12 +1197,12 @@
     "E26": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E25",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E27",
                 "type": "ride"
             }
@@ -1213,12 +1213,12 @@
     "E27": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E26",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E28",
                 "type": "ride"
             }
@@ -1229,12 +1229,12 @@
     "E28": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E27",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E29",
                 "type": "ride"
             }
@@ -1245,12 +1245,12 @@
     "E29": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "E28",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E30",
                 "type": "ride"
             }
@@ -1261,12 +1261,12 @@
     "E30": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E29",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E31",
                 "type": "ride"
             }
@@ -1277,12 +1277,12 @@
     "E31": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E30",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E32",
                 "type": "ride"
             }
@@ -1293,12 +1293,12 @@
     "E32": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E31",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E33",
                 "type": "ride"
             }
@@ -1309,12 +1309,12 @@
     "E33": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E32",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E34",
                 "type": "ride"
             }
@@ -1325,12 +1325,12 @@
     "E34": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E33",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E35",
                 "type": "ride"
             }
@@ -1341,12 +1341,12 @@
     "E35": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E34",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E36",
                 "type": "ride"
             }
@@ -1357,12 +1357,12 @@
     "E36": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E35",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E37",
                 "type": "ride"
             }
@@ -1373,12 +1373,12 @@
     "E37": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E36",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E38",
                 "type": "ride"
             }
@@ -1389,7 +1389,7 @@
     "E38": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E37",
                 "type": "ride"
             }
@@ -1400,12 +1400,12 @@
     "F01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y01",
                 "type": "walk"
             }
@@ -1416,17 +1416,17 @@
     "F02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F01",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F03",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y02",
                 "type": "walk"
             }
@@ -1437,17 +1437,17 @@
     "F03": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F04",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y03",
                 "type": "walk"
             }
@@ -1458,17 +1458,17 @@
     "F04": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F03",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F05",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y04",
                 "type": "walk"
             }
@@ -1479,17 +1479,17 @@
     "F05": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F06",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y05",
                 "type": "walk"
             }
@@ -1500,17 +1500,17 @@
     "F06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F07",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y06",
                 "type": "walk"
             }
@@ -1521,17 +1521,17 @@
     "F07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F08",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y07",
                 "type": "walk"
             }
@@ -1542,17 +1542,17 @@
     "F08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F09",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y08",
                 "type": "walk"
             }
@@ -1563,22 +1563,22 @@
     "F09": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F08",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F10",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y09",
                 "type": "walk"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M25",
                 "type": "walk"
             }
@@ -1589,12 +1589,12 @@
     "F10": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F11",
                 "type": "ride"
             }
@@ -1605,12 +1605,12 @@
     "F11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F12",
                 "type": "ride"
             }
@@ -1621,17 +1621,17 @@
     "F12": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F11",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F13",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E02",
                 "type": "walk"
             }
@@ -1642,22 +1642,22 @@
     "F13": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "F12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F14",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "S02",
                 "type": "walk"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M09",
                 "type": "walk"
             }
@@ -1668,12 +1668,12 @@
     "F14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F15",
                 "type": "ride"
             }
@@ -1684,17 +1684,17 @@
     "F15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F16",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C03",
                 "type": "walk"
             }
@@ -1705,17 +1705,17 @@
     "F16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "F15",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "G01",
                 "type": "walk"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z01",
                 "type": "walk"
             }
@@ -1726,7 +1726,7 @@
     "G01": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G02",
                 "type": "ride"
             }
@@ -1737,12 +1737,12 @@
     "G02": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G01",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G03",
                 "type": "ride"
             }
@@ -1753,12 +1753,12 @@
     "G03": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G04",
                 "type": "ride"
             }
@@ -1769,17 +1769,17 @@
     "G04": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z03",
                 "type": "walk"
             }
@@ -1790,32 +1790,32 @@
     "G05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M13",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N07",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z04",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -1826,12 +1826,12 @@
     "G06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G07",
                 "type": "ride"
             }
@@ -1842,12 +1842,12 @@
     "G07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G08",
                 "type": "ride"
             }
@@ -1858,12 +1858,12 @@
     "G08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G09",
                 "type": "ride"
             }
@@ -1874,17 +1874,17 @@
     "G09": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G08",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H08",
                 "type": "walk"
             }
@@ -1895,12 +1895,12 @@
     "G10": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G11",
                 "type": "ride"
             }
@@ -1911,22 +1911,22 @@
     "G11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T10",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "A13",
                 "type": "walk"
             }
@@ -1937,17 +1937,17 @@
     "G12": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G11",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G13",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z09",
                 "type": "walk"
             }
@@ -1958,12 +1958,12 @@
     "G13": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G14",
                 "type": "ride"
             }
@@ -1974,12 +1974,12 @@
     "G14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G15",
                 "type": "ride"
             }
@@ -1990,12 +1990,12 @@
     "G15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G14",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G16",
                 "type": "ride"
             }
@@ -2006,17 +2006,17 @@
     "G16": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G17",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H17",
                 "type": "walk"
             }
@@ -2027,12 +2027,12 @@
     "G17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G16",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G18",
                 "type": "ride"
             }
@@ -2043,12 +2043,12 @@
     "G18": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "G17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G19",
                 "type": "ride"
             }
@@ -2059,12 +2059,12 @@
     "G19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G18",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "A18",
                 "type": "walk"
             }
@@ -2075,7 +2075,7 @@
     "H01": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H02",
                 "type": "ride"
             }
@@ -2086,12 +2086,12 @@
     "H02": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H01",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H03",
                 "type": "ride"
             }
@@ -2102,12 +2102,12 @@
     "H03": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H04",
                 "type": "ride"
             }
@@ -2118,17 +2118,17 @@
     "H04": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H03",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E23",
                 "type": "walk"
             }
@@ -2139,12 +2139,12 @@
     "H05": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H04",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H06",
                 "type": "ride"
             }
@@ -2155,12 +2155,12 @@
     "H06": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H07",
                 "type": "ride"
             }
@@ -2171,17 +2171,17 @@
     "H07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y18",
                 "type": "walk"
             }
@@ -2192,12 +2192,12 @@
     "H08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H07",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "H09",
                 "type": "ride"
             }
@@ -2208,12 +2208,12 @@
     "H09": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "H08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H10",
                 "type": "ride"
             }
@@ -2224,12 +2224,12 @@
     "H10": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H11",
                 "type": "ride"
             }
@@ -2240,12 +2240,12 @@
     "H11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H12",
                 "type": "ride"
             }
@@ -2256,17 +2256,17 @@
     "H12": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H11",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H13",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T11",
                 "type": "walk"
             }
@@ -2277,12 +2277,12 @@
     "H13": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H14",
                 "type": "ride"
             }
@@ -2293,12 +2293,12 @@
     "H14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H15",
                 "type": "ride"
             }
@@ -2309,12 +2309,12 @@
     "H15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H14",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "H16",
                 "type": "ride"
             }
@@ -2325,17 +2325,17 @@
     "H16": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "H15",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "H17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G15",
                 "type": "walk"
             }
@@ -2346,12 +2346,12 @@
     "H17": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "H16",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H18",
                 "type": "ride"
             }
@@ -2362,12 +2362,12 @@
     "H18": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H19",
                 "type": "ride"
             }
@@ -2378,12 +2378,12 @@
     "H19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H18",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H20",
                 "type": "ride"
             }
@@ -2394,12 +2394,12 @@
     "H20": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H19",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H21",
                 "type": "ride"
             }
@@ -2410,12 +2410,12 @@
     "H21": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "H20",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "C18",
                 "type": "walk"
             }
@@ -2426,12 +2426,12 @@
     "I01": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N01",
                 "type": "walk"
             }
@@ -2442,17 +2442,17 @@
     "I02": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N01",
                 "type": "walk"
             }
@@ -2463,17 +2463,17 @@
     "I03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "I04",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N01",
                 "type": "walk"
             }
@@ -2484,17 +2484,17 @@
     "I04": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "I03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I05",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "A08",
                 "type": "walk"
             }
@@ -2505,12 +2505,12 @@
     "I05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I04",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "I06",
                 "type": "ride"
             }
@@ -2521,12 +2521,12 @@
     "I06": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "I05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I07",
                 "type": "ride"
             }
@@ -2537,12 +2537,12 @@
     "I07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I08",
                 "type": "ride"
             }
@@ -2553,27 +2553,27 @@
     "I08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C09",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H07",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y18",
                 "type": "walk"
             }
@@ -2584,27 +2584,27 @@
     "I09": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I08",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "I10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C11",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M18",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z08",
                 "type": "walk"
             }
@@ -2615,17 +2615,17 @@
     "I10": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "I09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I11",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z07",
                 "type": "walk"
             }
@@ -2636,12 +2636,12 @@
     "I11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I12",
                 "type": "ride"
             }
@@ -2652,27 +2652,27 @@
     "I12": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I11",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E07",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N11",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M22",
                 "type": "walk"
             }
@@ -2683,12 +2683,12 @@
     "I13": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I14",
                 "type": "ride"
             }
@@ -2699,12 +2699,12 @@
     "I14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I15",
                 "type": "ride"
             }
@@ -2715,12 +2715,12 @@
     "I15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I16",
                 "type": "ride"
             }
@@ -2731,12 +2731,12 @@
     "I16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I17",
                 "type": "ride"
             }
@@ -2747,12 +2747,12 @@
     "I17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I16",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I18",
                 "type": "ride"
             }
@@ -2763,12 +2763,12 @@
     "I18": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I19",
                 "type": "ride"
             }
@@ -2779,12 +2779,12 @@
     "I19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I18",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "I20",
                 "type": "ride"
             }
@@ -2795,12 +2795,12 @@
     "I20": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "I19",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I21",
                 "type": "ride"
             }
@@ -2811,12 +2811,12 @@
     "I21": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I20",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I22",
                 "type": "ride"
             }
@@ -2827,12 +2827,12 @@
     "I22": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I21",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I23",
                 "type": "ride"
             }
@@ -2843,12 +2843,12 @@
     "I23": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I22",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I24",
                 "type": "ride"
             }
@@ -2859,12 +2859,12 @@
     "I24": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I23",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I25",
                 "type": "ride"
             }
@@ -2875,12 +2875,12 @@
     "I25": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I24",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I26",
                 "type": "ride"
             }
@@ -2891,12 +2891,12 @@
     "I26": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I25",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I27",
                 "type": "ride"
             }
@@ -2907,7 +2907,7 @@
     "I27": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I26",
                 "type": "ride"
             }
@@ -2918,7 +2918,7 @@
     "M01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M02",
                 "type": "ride"
             }
@@ -2929,12 +2929,12 @@
     "M02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M03",
                 "type": "ride"
             }
@@ -2945,12 +2945,17 @@
     "M03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
+                "target_id": "M04",
+                "type": "ride"
+            },
+            {
+                "duration": 0,
                 "target_id": "M04",
                 "type": "ride"
             }
@@ -2961,12 +2966,22 @@
     "M04": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
+                "target_id": "M05",
+                "type": "ride"
+            },
+            {
+                "duration": 0,
+                "target_id": "M03",
+                "type": "ride"
+            },
+            {
+                "duration": 0,
                 "target_id": "M05",
                 "type": "ride"
             }
@@ -2977,13 +2992,18 @@
     "M05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M06",
+                "type": "ride"
+            },
+            {
+                "duration": 0,
+                "target_id": "M04",
                 "type": "ride"
             }
         ],
@@ -2993,12 +3013,12 @@
     "M06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M07",
                 "type": "ride"
             }
@@ -3009,12 +3029,12 @@
     "M07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M08",
                 "type": "ride"
             }
@@ -3025,17 +3045,17 @@
     "M08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E27",
                 "type": "walk"
             }
@@ -3046,12 +3066,12 @@
     "M09": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M08",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "M10",
                 "type": "ride"
             }
@@ -3062,12 +3082,12 @@
     "M10": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "M09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M11",
                 "type": "ride"
             }
@@ -3078,12 +3098,12 @@
     "M11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M12",
                 "type": "ride"
             }
@@ -3094,17 +3114,17 @@
     "M12": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M11",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M13",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N08",
                 "type": "walk"
             }
@@ -3115,27 +3135,27 @@
     "M13": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N07",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z04",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -3146,22 +3166,22 @@
     "M14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N06",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G06",
                 "type": "walk"
             }
@@ -3172,22 +3192,22 @@
     "M15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M16",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H06",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "C08",
                 "type": "walk"
             }
@@ -3198,22 +3218,22 @@
     "M16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "H08",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G09",
                 "type": "walk"
             }
@@ -3224,12 +3244,12 @@
     "M17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M16",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M18",
                 "type": "ride"
             }
@@ -3240,17 +3260,17 @@
     "M18": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M17",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "M19",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z08",
                 "type": "walk"
             }
@@ -3261,12 +3281,12 @@
     "M19": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "M18",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M20",
                 "type": "ride"
             }
@@ -3277,12 +3297,12 @@
     "M20": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M19",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M21",
                 "type": "ride"
             }
@@ -3293,12 +3313,12 @@
     "M21": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M20",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M22",
                 "type": "ride"
             }
@@ -3309,12 +3329,12 @@
     "M22": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M21",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M23",
                 "type": "ride"
             }
@@ -3325,12 +3345,12 @@
     "M23": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M22",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M24",
                 "type": "ride"
             }
@@ -3341,12 +3361,12 @@
     "M24": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M23",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M25",
                 "type": "ride"
             }
@@ -3357,35 +3377,8 @@
     "M25": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "M24",
-                "type": "ride"
-            }
-        ],
-        "name_en": null,
-        "name_jp": null
-    },
-    "Mb03": {
-        "connections": [
-            {
-                "duration": 2,
-                "target_id": "Mb04",
-                "type": "ride"
-            }
-        ],
-        "name_en": null,
-        "name_jp": null
-    },
-    "Mb04": {
-        "connections": [
-            {
-                "duration": 2,
-                "target_id": "Mb03",
-                "type": "ride"
-            },
-            {
-                "duration": 2,
-                "target_id": "Mb05",
                 "type": "ride"
             }
         ],
@@ -3395,12 +3388,7 @@
     "Mb05": {
         "connections": [
             {
-                "duration": 2,
-                "target_id": "Mb04",
-                "type": "ride"
-            },
-            {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M06",
                 "type": "ride"
             }
@@ -3411,7 +3399,7 @@
     "N01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N02",
                 "type": "ride"
             }
@@ -3422,12 +3410,12 @@
     "N02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N03",
                 "type": "ride"
             }
@@ -3438,12 +3426,12 @@
     "N03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N04",
                 "type": "ride"
             }
@@ -3454,17 +3442,17 @@
     "N04": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E22",
                 "type": "walk"
             }
@@ -3475,12 +3463,12 @@
     "N05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N04",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N06",
                 "type": "ride"
             }
@@ -3491,17 +3479,17 @@
     "N06": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N05",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "N07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "G06",
                 "type": "walk"
             }
@@ -3512,22 +3500,22 @@
     "N07": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "N06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z04",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -3538,12 +3526,12 @@
     "N08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N09",
                 "type": "ride"
             }
@@ -3554,17 +3542,17 @@
     "N09": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N10",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y14",
                 "type": "walk"
             }
@@ -3575,12 +3563,12 @@
     "N10": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N11",
                 "type": "ride"
             }
@@ -3591,17 +3579,17 @@
     "N11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N10",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M11",
                 "type": "walk"
             }
@@ -3612,12 +3600,12 @@
     "N12": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N11",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "N13",
                 "type": "ride"
             }
@@ -3628,12 +3616,12 @@
     "N13": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "N12",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N14",
                 "type": "ride"
             }
@@ -3644,12 +3632,12 @@
     "N14": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N15",
                 "type": "ride"
             }
@@ -3660,12 +3648,12 @@
     "N15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N16",
                 "type": "ride"
             }
@@ -3676,12 +3664,12 @@
     "N16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N17",
                 "type": "ride"
             }
@@ -3692,12 +3680,12 @@
     "N17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N16",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N18",
                 "type": "ride"
             }
@@ -3708,12 +3696,12 @@
     "N18": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "N17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N19",
                 "type": "ride"
             }
@@ -3724,7 +3712,7 @@
     "N19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N18",
                 "type": "ride"
             }
@@ -3735,17 +3723,17 @@
     "S01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "S02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M08",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "E27",
                 "type": "walk"
             }
@@ -3756,12 +3744,12 @@
     "S02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "S01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S03",
                 "type": "ride"
             }
@@ -3772,12 +3760,12 @@
     "S03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S02",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S04",
                 "type": "ride"
             }
@@ -3788,22 +3776,22 @@
     "S04": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y14",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N09",
                 "type": "walk"
             }
@@ -3814,22 +3802,22 @@
     "S05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S04",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z06",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T07",
                 "type": "walk"
             }
@@ -3840,22 +3828,22 @@
     "S06": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S05",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "I10",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z07",
                 "type": "walk"
             }
@@ -3866,17 +3854,17 @@
     "S07": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "M19",
                 "type": "walk"
             }
@@ -3887,17 +3875,17 @@
     "S08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S07",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S09",
                 "type": "ride"
             },
             {
-                "duration": 5,
+                "duration": 0,
                 "target_id": "H15",
                 "type": "walk"
             }
@@ -3908,12 +3896,12 @@
     "S09": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S08",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S10",
                 "type": "ride"
             }
@@ -3924,12 +3912,12 @@
     "S10": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S09",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S11",
                 "type": "ride"
             }
@@ -3940,17 +3928,17 @@
     "S11": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S10",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S12",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E13",
                 "type": "walk"
             }
@@ -3961,12 +3949,12 @@
     "S12": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "S11",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S13",
                 "type": "ride"
             }
@@ -3977,12 +3965,12 @@
     "S13": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S14",
                 "type": "ride"
             }
@@ -3993,12 +3981,12 @@
     "S14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S15",
                 "type": "ride"
             }
@@ -4009,12 +3997,12 @@
     "S15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S16",
                 "type": "ride"
             }
@@ -4025,12 +4013,12 @@
     "S16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S17",
                 "type": "ride"
             }
@@ -4041,12 +4029,12 @@
     "S17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S16",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S18",
                 "type": "ride"
             }
@@ -4057,12 +4045,12 @@
     "S18": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S19",
                 "type": "ride"
             }
@@ -4073,12 +4061,12 @@
     "S19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S18",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S20",
                 "type": "ride"
             }
@@ -4089,12 +4077,12 @@
     "S20": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S19",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S21",
                 "type": "ride"
             }
@@ -4105,7 +4093,7 @@
     "S21": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "S20",
                 "type": "ride"
             }
@@ -4116,7 +4104,7 @@
     "T01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T02",
                 "type": "ride"
             }
@@ -4127,12 +4115,12 @@
     "T02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T01",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T03",
                 "type": "ride"
             }
@@ -4143,12 +4131,12 @@
     "T03": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T04",
                 "type": "ride"
             }
@@ -4159,12 +4147,12 @@
     "T04": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T05",
                 "type": "ride"
             }
@@ -4175,12 +4163,12 @@
     "T05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T06",
                 "type": "ride"
             }
@@ -4191,22 +4179,22 @@
     "T06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T05",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "T07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y13",
                 "type": "walk"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N10",
                 "type": "walk"
             }
@@ -4217,17 +4205,17 @@
     "T07": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "T06",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z06",
                 "type": "walk"
             }
@@ -4238,12 +4226,12 @@
     "T08": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T07",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T09",
                 "type": "ride"
             }
@@ -4254,12 +4242,12 @@
     "T09": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T10",
                 "type": "ride"
             }
@@ -4270,12 +4258,12 @@
     "T10": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T09",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "T11",
                 "type": "ride"
             }
@@ -4286,12 +4274,12 @@
     "T11": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "T10",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T12",
                 "type": "ride"
             }
@@ -4302,12 +4290,12 @@
     "T12": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T11",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T13",
                 "type": "ride"
             }
@@ -4318,12 +4306,12 @@
     "T13": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T12",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "T14",
                 "type": "ride"
             }
@@ -4334,12 +4322,12 @@
     "T14": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "T13",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T15",
                 "type": "ride"
             }
@@ -4350,12 +4338,12 @@
     "T15": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T14",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T16",
                 "type": "ride"
             }
@@ -4366,12 +4354,12 @@
     "T16": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T17",
                 "type": "ride"
             }
@@ -4382,12 +4370,12 @@
     "T17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T16",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T18",
                 "type": "ride"
             }
@@ -4398,12 +4386,12 @@
     "T18": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T19",
                 "type": "ride"
             }
@@ -4414,12 +4402,12 @@
     "T19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T18",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T20",
                 "type": "ride"
             }
@@ -4430,12 +4418,12 @@
     "T20": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T19",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T21",
                 "type": "ride"
             }
@@ -4446,12 +4434,12 @@
     "T21": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "T20",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T22",
                 "type": "ride"
             }
@@ -4462,12 +4450,12 @@
     "T22": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T21",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T23",
                 "type": "ride"
             }
@@ -4478,7 +4466,7 @@
     "T23": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "T22",
                 "type": "ride"
             }
@@ -4489,7 +4477,7 @@
     "Y01": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y02",
                 "type": "ride"
             }
@@ -4500,12 +4488,12 @@
     "Y02": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y03",
                 "type": "ride"
             }
@@ -4516,12 +4504,12 @@
     "Y03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y04",
                 "type": "ride"
             }
@@ -4532,12 +4520,12 @@
     "Y04": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y05",
                 "type": "ride"
             }
@@ -4548,12 +4536,12 @@
     "Y05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y04",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y06",
                 "type": "ride"
             }
@@ -4564,12 +4552,12 @@
     "Y06": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y07",
                 "type": "ride"
             }
@@ -4580,12 +4568,12 @@
     "Y07": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y06",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Y08",
                 "type": "ride"
             }
@@ -4596,12 +4584,12 @@
     "Y08": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Y07",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y09",
                 "type": "ride"
             }
@@ -4612,12 +4600,12 @@
     "Y09": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y08",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y10",
                 "type": "ride"
             }
@@ -4628,12 +4616,12 @@
     "Y10": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y09",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y11",
                 "type": "ride"
             }
@@ -4644,12 +4632,12 @@
     "Y11": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y10",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y12",
                 "type": "ride"
             }
@@ -4660,12 +4648,12 @@
     "Y12": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y11",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y13",
                 "type": "ride"
             }
@@ -4676,17 +4664,17 @@
     "Y13": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y12",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "N10",
                 "type": "walk"
             }
@@ -4697,12 +4685,12 @@
     "Y14": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y13",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y15",
                 "type": "ride"
             }
@@ -4713,12 +4701,12 @@
     "Y15": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y14",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y16",
                 "type": "ride"
             }
@@ -4729,12 +4717,12 @@
     "Y16": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y15",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y17",
                 "type": "ride"
             }
@@ -4745,12 +4733,12 @@
     "Y17": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y16",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Y18",
                 "type": "ride"
             }
@@ -4761,12 +4749,12 @@
     "Y18": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Y17",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y19",
                 "type": "ride"
             }
@@ -4777,12 +4765,12 @@
     "Y19": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y18",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y20",
                 "type": "ride"
             }
@@ -4793,12 +4781,12 @@
     "Y20": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y19",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y21",
                 "type": "ride"
             }
@@ -4809,17 +4797,17 @@
     "Y21": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y20",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y22",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "E16",
                 "type": "walk"
             }
@@ -4830,12 +4818,12 @@
     "Y22": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y21",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y23",
                 "type": "ride"
             }
@@ -4846,12 +4834,12 @@
     "Y23": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Y22",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y24",
                 "type": "ride"
             }
@@ -4862,7 +4850,7 @@
     "Y24": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y23",
                 "type": "ride"
             }
@@ -4873,12 +4861,12 @@
     "Z01": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "G01",
                 "type": "walk"
             }
@@ -4889,17 +4877,17 @@
     "Z02": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z01",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z03",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "G02",
                 "type": "walk"
             }
@@ -4910,12 +4898,12 @@
     "Z03": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z02",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z04",
                 "type": "ride"
             }
@@ -4926,17 +4914,17 @@
     "Z04": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z03",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z05",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -4947,12 +4935,12 @@
     "Z05": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z04",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z06",
                 "type": "ride"
             }
@@ -4963,12 +4951,12 @@
     "Z06": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z05",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Z07",
                 "type": "ride"
             }
@@ -4979,12 +4967,12 @@
     "Z07": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Z06",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z08",
                 "type": "ride"
             }
@@ -4995,12 +4983,12 @@
     "Z08": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z07",
                 "type": "ride"
             },
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Z09",
                 "type": "ride"
             }
@@ -5011,12 +4999,12 @@
     "Z09": {
         "connections": [
             {
-                "duration": 1,
+                "duration": 0,
                 "target_id": "Z08",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z10",
                 "type": "ride"
             }
@@ -5027,12 +5015,12 @@
     "Z10": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z09",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z11",
                 "type": "ride"
             }
@@ -5043,12 +5031,12 @@
     "Z11": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z10",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z12",
                 "type": "ride"
             }
@@ -5059,17 +5047,17 @@
     "Z12": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z11",
                 "type": "ride"
             },
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z13",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "S13",
                 "type": "walk"
             }
@@ -5080,12 +5068,12 @@
     "Z13": {
         "connections": [
             {
-                "duration": 2,
+                "duration": 0,
                 "target_id": "Z12",
                 "type": "ride"
             },
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z14",
                 "type": "ride"
             }
@@ -5096,7 +5084,7 @@
     "Z14": {
         "connections": [
             {
-                "duration": 3,
+                "duration": 0,
                 "target_id": "Z13",
                 "type": "ride"
             }
