@@ -1,3 +1,7 @@
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jugendhackt/tokyo-metro-data?style=flat-square"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/jugendhackt/tokyo-metro-data?style=flat-square"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/jugendhackt/tokyo-metro-data?style=flat-square"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/jugendhackt/tokyo-metro-data?style=flat-square">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tokyo_Metro_2_logo.svg/1200px-Tokyo_Metro_2_logo.svg.png" align="right" width="200" />
+
 # Tokyo Metro Data
 
 Data detailing Tokyo's Metro network, derived from the line plan and signs as well as tokyometro.jp.
@@ -7,10 +11,9 @@ You can help by improving it!
 # Data formats
 
 ## JSON based data
-The stations.json contains all currently known information. This includes the stations names in english and japanese as well all connections departing a station.
+[Stations.json](stations.json) contains all currently known information. This includes the stations names in english and japanese as well all connections departing a station.
 
-### Data shema
-The following is an example an entry in stations.json:
+The following should explain stations.json:
 ```json
 {
     "lines": {
@@ -72,6 +75,19 @@ The following is an example an entry in stations.json:
     }
 }
 ```
+
+## Things to do
+
+As of yet there are a few things missing:
+- [ ] Adding all japanese station names to [stations_jap.csv](data/stations_jap.csv)
+- [ ] General code cleanup in generator.py (maybe some progress output?)
+- [ ] Adding connections to non-metro transport systems (e.g. train stations or airports) 
+## Contributors
+
+You can add yourself here after contributing something!
+
+<a href="https://github.com/StoneLabs"><img src="https://github.com/StoneLabs.png" title="StoneLabs" width="80" height="80"></a>
+<a href="https://github.com/sternenseemann"><img src="https://github.com/sternenseemann.png" title="StoneLabs" width="80" height="80"></a>
 
 # Projects using this data
 *Feel free to add your project!*
