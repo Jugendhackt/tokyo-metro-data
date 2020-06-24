@@ -11,7 +11,7 @@ You can help by improving it!
 # Data formats
 
 ## JSON based data
-[Stations.json](stations.json) contains all currently known information. This includes the stations names in english and japanese as well all connections departing a station.
+[Stations.json](stations.json) contains all currently known information. This includes the stations names in english and japanese as well all connections departing a station. Distances are in kilometers (float) and durations in seconds (int).
 
 The following should explain stations.json:
 ```json
@@ -88,7 +88,7 @@ As of yet there are a few things missing:
 - [x] Adding all japanese station names to [stations_jap.csv](data/stations_jap.csv)
 - [x] Replace duration with distance
 - [x] Add distance (listed on wikipedia)
-- [ ] Add a transition like file for duration
+- [x] Add a transition like file for duration
 - [ ] General code cleanup in generator.py (maybe some progress output?)
 - [ ] Adding connections to non-metro transport systems (e.g. train stations or airports)
 
