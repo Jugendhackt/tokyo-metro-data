@@ -135,7 +135,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 20,
                 "target_id": "E20",
                 "type": "walk"
             }
@@ -156,7 +156,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "G08",
                 "type": "walk"
             }
@@ -177,7 +177,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "H09",
                 "type": "walk"
             }
@@ -214,7 +214,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 10,
                 "target_id": "T10",
                 "type": "walk"
             }
@@ -235,7 +235,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 13,
                 "target_id": "H13",
                 "type": "walk"
             }
@@ -256,7 +256,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "S09",
                 "type": "walk"
             }
@@ -293,7 +293,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "E11",
                 "type": "walk"
             }
@@ -341,7 +341,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 14,
                 "target_id": "Z14",
                 "type": "walk"
             }
@@ -405,12 +405,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 2,
                 "target_id": "G02",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 2,
                 "target_id": "Z02",
                 "type": "walk"
             }
@@ -463,17 +463,17 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 14,
                 "target_id": "M14",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "N06",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "G06",
                 "type": "walk"
             }
@@ -494,7 +494,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "H06",
                 "type": "walk"
             }
@@ -515,12 +515,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "H07",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 18,
                 "target_id": "Y18",
                 "type": "walk"
             }
@@ -557,12 +557,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 18,
                 "target_id": "M18",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "Z08",
                 "type": "walk"
             }
@@ -583,12 +583,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "S07",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 19,
                 "target_id": "M19",
                 "type": "walk"
             }
@@ -727,22 +727,22 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "S01",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "M08",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 27,
                 "target_id": "E27",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 28,
                 "target_id": "E28",
                 "type": "ride"
             }
@@ -827,17 +827,17 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "T06",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 13,
                 "target_id": "Y13",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 10,
                 "target_id": "N10",
                 "type": "walk"
             }
@@ -858,12 +858,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "N11",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "M11",
                 "type": "walk"
             }
@@ -884,7 +884,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 21,
                 "target_id": "M21",
                 "type": "walk"
             }
@@ -905,12 +905,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 15,
                 "target_id": "G15",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 16,
                 "target_id": "H16",
                 "type": "walk"
             }
@@ -995,7 +995,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "Z11",
                 "type": "walk"
             }
@@ -1016,7 +1016,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 12,
                 "target_id": "T12",
                 "type": "walk"
             }
@@ -1165,12 +1165,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 3,
                 "target_id": "Z03",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 4,
                 "target_id": "G04",
                 "type": "walk"
             }
@@ -1405,7 +1405,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "Y01",
                 "type": "walk"
             }
@@ -1426,7 +1426,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 2,
                 "target_id": "Y02",
                 "type": "walk"
             }
@@ -1447,7 +1447,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 3,
                 "target_id": "Y03",
                 "type": "walk"
             }
@@ -1468,7 +1468,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 4,
                 "target_id": "Y04",
                 "type": "walk"
             }
@@ -1489,7 +1489,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 5,
                 "target_id": "Y05",
                 "type": "walk"
             }
@@ -1510,7 +1510,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "Y06",
                 "type": "walk"
             }
@@ -1531,7 +1531,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "Y07",
                 "type": "walk"
             }
@@ -1552,7 +1552,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "Y08",
                 "type": "walk"
             }
@@ -1573,12 +1573,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "Y09",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 25,
                 "target_id": "M25",
                 "type": "walk"
             }
@@ -1631,7 +1631,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 2,
                 "target_id": "E02",
                 "type": "walk"
             }
@@ -1652,12 +1652,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 2,
                 "target_id": "S02",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "M09",
                 "type": "walk"
             }
@@ -1694,7 +1694,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 3,
                 "target_id": "C03",
                 "type": "walk"
             }
@@ -1710,12 +1710,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "G01",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "Z01",
                 "type": "walk"
             }
@@ -1779,7 +1779,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 3,
                 "target_id": "Z03",
                 "type": "walk"
             }
@@ -1800,22 +1800,22 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 13,
                 "target_id": "M13",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "N07",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 4,
                 "target_id": "Z04",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 16,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -1884,7 +1884,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "H08",
                 "type": "walk"
             }
@@ -1921,12 +1921,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 10,
                 "target_id": "T10",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 13,
                 "target_id": "A13",
                 "type": "walk"
             }
@@ -1947,7 +1947,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "Z09",
                 "type": "walk"
             }
@@ -2016,7 +2016,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 17,
                 "target_id": "H17",
                 "type": "walk"
             }
@@ -2064,7 +2064,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 18,
                 "target_id": "A18",
                 "type": "walk"
             }
@@ -2128,7 +2128,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 23,
                 "target_id": "E23",
                 "type": "walk"
             }
@@ -2181,7 +2181,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 18,
                 "target_id": "Y18",
                 "type": "walk"
             }
@@ -2266,7 +2266,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "T11",
                 "type": "walk"
             }
@@ -2335,7 +2335,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 15,
                 "target_id": "G15",
                 "type": "walk"
             }
@@ -2415,7 +2415,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 18,
                 "target_id": "C18",
                 "type": "walk"
             }
@@ -2431,7 +2431,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "N01",
                 "type": "walk"
             }
@@ -2452,7 +2452,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "N01",
                 "type": "walk"
             }
@@ -2473,7 +2473,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "N01",
                 "type": "walk"
             }
@@ -2494,7 +2494,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "A08",
                 "type": "walk"
             }
@@ -2563,17 +2563,17 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "C09",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "H07",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 18,
                 "target_id": "Y18",
                 "type": "walk"
             }
@@ -2594,17 +2594,17 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "C11",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 18,
                 "target_id": "M18",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "Z08",
                 "type": "walk"
             }
@@ -2625,7 +2625,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "Z07",
                 "type": "walk"
             }
@@ -2662,17 +2662,17 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "E07",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "N11",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 22,
                 "target_id": "M22",
                 "type": "walk"
             }
@@ -2953,11 +2953,6 @@
                 "duration": 0,
                 "target_id": "M04",
                 "type": "ride"
-            },
-            {
-                "duration": 0,
-                "target_id": "M04",
-                "type": "ride"
             }
         ],
         "name_en": null,
@@ -2965,16 +2960,6 @@
     },
     "M04": {
         "connections": [
-            {
-                "duration": 0,
-                "target_id": "M03",
-                "type": "ride"
-            },
-            {
-                "duration": 0,
-                "target_id": "M05",
-                "type": "ride"
-            },
             {
                 "duration": 0,
                 "target_id": "M03",
@@ -2999,11 +2984,6 @@
             {
                 "duration": 0,
                 "target_id": "M06",
-                "type": "ride"
-            },
-            {
-                "duration": 0,
-                "target_id": "M04",
                 "type": "ride"
             }
         ],
@@ -3055,7 +3035,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 27,
                 "target_id": "E27",
                 "type": "walk"
             }
@@ -3124,7 +3104,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "N08",
                 "type": "walk"
             }
@@ -3145,17 +3125,17 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "N07",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 4,
                 "target_id": "Z04",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 16,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -3176,12 +3156,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "N06",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "G06",
                 "type": "walk"
             }
@@ -3202,12 +3182,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "H06",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "C08",
                 "type": "walk"
             }
@@ -3228,12 +3208,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "H08",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "G09",
                 "type": "walk"
             }
@@ -3270,7 +3250,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "Z08",
                 "type": "walk"
             }
@@ -3385,10 +3365,42 @@
         "name_en": null,
         "name_jp": null
     },
+    "Mb03": {
+        "connections": [
+            {
+                "duration": 0,
+                "target_id": "Mb04",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
+    "Mb04": {
+        "connections": [
+            {
+                "duration": 0,
+                "target_id": "Mb03",
+                "type": "ride"
+            },
+            {
+                "duration": 0,
+                "target_id": "Mb05",
+                "type": "ride"
+            }
+        ],
+        "name_en": null,
+        "name_jp": null
+    },
     "Mb05": {
         "connections": [
             {
                 "duration": 0,
+                "target_id": "Mb04",
+                "type": "ride"
+            },
+            {
+                "duration": 6,
                 "target_id": "M06",
                 "type": "ride"
             }
@@ -3452,7 +3464,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 22,
                 "target_id": "E22",
                 "type": "walk"
             }
@@ -3489,7 +3501,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "G06",
                 "type": "walk"
             }
@@ -3510,12 +3522,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 4,
                 "target_id": "Z04",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 16,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -3552,7 +3564,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 14,
                 "target_id": "Y14",
                 "type": "walk"
             }
@@ -3589,7 +3601,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 11,
                 "target_id": "M11",
                 "type": "walk"
             }
@@ -3728,12 +3740,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 8,
                 "target_id": "M08",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 27,
                 "target_id": "E27",
                 "type": "walk"
             }
@@ -3786,12 +3798,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 14,
                 "target_id": "Y14",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 9,
                 "target_id": "N09",
                 "type": "walk"
             }
@@ -3812,12 +3824,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "Z06",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "T07",
                 "type": "walk"
             }
@@ -3838,12 +3850,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 10,
                 "target_id": "I10",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 7,
                 "target_id": "Z07",
                 "type": "walk"
             }
@@ -3864,7 +3876,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 19,
                 "target_id": "M19",
                 "type": "walk"
             }
@@ -3885,7 +3897,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 15,
                 "target_id": "H15",
                 "type": "walk"
             }
@@ -3938,7 +3950,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 13,
                 "target_id": "E13",
                 "type": "walk"
             }
@@ -4189,12 +4201,12 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 13,
                 "target_id": "Y13",
                 "type": "walk"
             },
             {
-                "duration": 0,
+                "duration": 10,
                 "target_id": "N10",
                 "type": "walk"
             }
@@ -4215,7 +4227,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 6,
                 "target_id": "Z06",
                 "type": "walk"
             }
@@ -4674,7 +4686,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 10,
                 "target_id": "N10",
                 "type": "walk"
             }
@@ -4807,7 +4819,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 16,
                 "target_id": "E16",
                 "type": "walk"
             }
@@ -4866,7 +4878,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 1,
                 "target_id": "G01",
                 "type": "walk"
             }
@@ -4887,7 +4899,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 2,
                 "target_id": "G02",
                 "type": "walk"
             }
@@ -4924,7 +4936,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 16,
                 "target_id": "Y16",
                 "type": "walk"
             }
@@ -5057,7 +5069,7 @@
                 "type": "ride"
             },
             {
-                "duration": 0,
+                "duration": 13,
                 "target_id": "S13",
                 "type": "walk"
             }
