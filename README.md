@@ -1,6 +1,6 @@
 # Tokyo Metro Data
 
-Data detailing Tokyo's Metro network, derived from the line plan and signs.
+Data detailing Tokyo's Metro network, derived from the line plan and signs as well as tokyometro.jp.
 
 You can help by improving it!
 
@@ -13,40 +13,65 @@ The stations.json contains all currently known information. This includes the st
 The following is an example an entry in stations.json:
 ```json
 {
-  ...
-  "C04" : {
-        "name_en": null,
-        "name_jp": null,
-        "connections": [
-            {
-                "duration": 1,
-                "target_id": "C03",
-                "type": "ride"
-            },
-            {
-                "duration": 2,
-                "target_id": "C05",
-                "type": "ride"
-            },
-            {
-                "duration": 3,
-                "target_id": "G02",
-                "type": "walk"
-            },
-            {
-                "duration": 3,
-                "target_id": "Z02",
-                "type": "walk"
-            }
-        ]
+    "lines": {
+        ...
+        "A": {
+            "name_en": "Asakusa Line",
+            "name_jp": "浅草線"
+        },
+        "C": {
+            "name_en": "Chiyoda Line",
+            "name_jp": "千代田線"
+        },
+        ...
     },
-  ...
+    "stations": {
+        ...
+        "E27": {
+            "connections": [
+                {
+                    "duration": 0,
+                    "target_id": "E26",
+                    "type": "ride",
+                    "type_id": 1
+                },
+                {
+                    "duration": 0,
+                    "target_id": "E28",
+                    "type": "ride",
+                    "type_id": 1
+                },
+                {
+                    "duration": 0,
+                    "target_id": "E01",
+                    "type": "walk",
+                    "type_id": 0
+                },
+                {
+                    "duration": 0,
+                    "target_id": "S01",
+                    "type": "walk",
+                    "type_id": 0
+                },
+                {
+                    "duration": 0,
+                    "target_id": "M08",
+                    "type": "walk",
+                    "type_id": 0
+                }
+            ],
+            "name_en": "Shinjuku",
+            "name_jp": "None"
+        },
+        ...
+    },
+    "transition_types": {
+        "0": "walk",
+        "1": "ride",
+        "2": "ground"
+    }
 }
 ```
-
-## Matrix transition format
-The transitions.csv contains the transition times in a easy to compute with matrix format.
-The header contains the the station names for each column
 
 # Projects using this data
 *Feel free to add your project!*
