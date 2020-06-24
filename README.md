@@ -79,10 +79,14 @@ The following should explain stations.json:
 ## Things to do
 
 As of yet there are a few things missing:
-- [ ] Adding all japanese station names to [stations_jap.csv](data/stations_jap.csv)
-- [ ] Adding durations in seconds to transitions.csv and lines.csv
+
+- [x] Adding all japanese station names to [stations_jap.csv](data/stations_jap.csv)
+- [ ] Replace duration with distance
+- [ ] Add durations (listed on wikipedia)
+- [ ] Add a transition like file for duration
 - [ ] General code cleanup in generator.py (maybe some progress output?)
-- [ ] Adding connections to non-metro transport systems (e.g. train stations or airports) 
+- [ ] Adding connections to non-metro transport systems (e.g. train stations or airports)
+
 ## Contributors
 
 You can add yourself here after contributing something!
