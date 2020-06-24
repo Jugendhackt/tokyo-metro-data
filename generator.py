@@ -12,7 +12,7 @@ def station_id(char, number):
 
 # Add connection to metro map structure
 def add_connection(metro_map):
-    def inner(fro, to, type, dur):
+    def inner(fro, to, type, dis, dur):
         entry = {
             "name_en": str(stations_eng.get(fro)),
             "name_jp": str(stations_jap.get(fro)),
@@ -27,7 +27,8 @@ def add_connection(metro_map):
             "target_id": to,
             "type_id": type,
             "type": types.get(type),
-            "duration": dur
+            "duration": dur,
+            "distance": dis
         }
         entry["connections"] += [conn]
         metro_map[fro] = entry
@@ -76,14 +77,17 @@ for line in parse_csv(lines.read(), ","):
     char = line[0]
     first = int(line[1])
     last = int(line[2])
-    rides = list(map(int, line[3:]))
+
+    distances = list(map(float, line[3:3+last-first])) # first n entries are distances in km
+    durations = list(map(int  , line[3+last-first:]))  # next  n entries are durations in s
 
     for station_number in range(first, last):
-        time = rides[station_number - first]
+        distance = distances[station_number - first]
+        duration = durations[station_number - first]
         station_a = station_id(char, station_number)
         station_b = station_id(char, station_number + 1)
-        metro_map = add_conn(station_a, station_b, default_type, time)
-        metro_map = add_conn(station_b, station_a, default_type, time)
+        metro_map = add_conn(station_a, station_b, default_type, distance, duration)
+        metro_map = add_conn(station_b, station_a, default_type, distance, duration)
 
 # Read transitions.csv and append all transitions to metro_map
 # Line format is: From Station Letter, From Station Number, To Station Letter, To Station Number, type, duration
@@ -91,10 +95,11 @@ for transition in parse_csv(transitions.read(), ","):
     station1 = station_id(transition[0], int(transition[1]))
     station2 = station_id(transition[2], int(transition[3]))
     type = int(transition[4])
-    time = int(transition[5])
+    distance = float(transition[5])
+    duration =   int(transition[6])
 
-    metro_map = add_conn(station1, station2, type, time)
-    metro_map = add_conn(station2, station1, type, time)
+    metro_map = add_conn(station1, station2, type, distance, duration)
+    metro_map = add_conn(station2, station1, type, distance, duration)
 
 print("Dumping...")
 dumpformat = {}
