@@ -15,6 +15,10 @@ parser = argparse.ArgumentParser(description="Webduino source builder")
 parser.add_argument("-v", "--verbose", action='store_true', dest='verbose',
                     help="Displays verbose output")
 
+parser.add_argument("-o", "--output", metavar="file", type=str,
+                    default="./stations.json", dest='output',
+                    help="location of the output file (default: ./stations.json)")
+
 args = parser.parse_args()
 
 def warn(text):
@@ -50,7 +54,7 @@ def query_yes_no(question, default="yes"):
 # Ask for user confirmation
 if os.path.exists(args.output):
     try:
-        warn("stations.json will be overridden!")
+        warn(args.output + " will be overridden!")
         if not query_yes_no("Would you like to continue?"):
             sys.exit(0)
     except KeyboardInterrupt:
@@ -217,7 +221,7 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
     dump["lines"] = lines
     dump["stations"] = stations
     dump["transition_types"] = types
-    with open("stations.json", "w+", encoding="utf8") as c_file:
+    with open(args.output, "w+", encoding="utf8") as c_file:
         c_file.write(json.dumps(dump, indent=4, sort_keys=True, ensure_ascii=False))
 
     ###
