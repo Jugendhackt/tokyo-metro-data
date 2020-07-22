@@ -1,12 +1,21 @@
 import simplejson as json
+import argparse
 import signal
 import sys
 import os
 
+from rich.table import Table
 from rich.markup import escape
 from rich.console import Console
 from rich.progress  import Progress, BarColumn, TextColumn
 console = Console()
+
+parser = argparse.ArgumentParser(description="Webduino source builder")
+
+parser.add_argument("-v", "--verbose", action='store_true', dest='verbose',
+                    help="Displays verbose output")
+
+args = parser.parse_args()
 
 def warn(text):
     """Creates warning in stdout"""
@@ -39,12 +48,13 @@ def query_yes_no(question, default="yes"):
                              "(or 'y' or 'n').\n")
 
 # Ask for user confirmation
-try:
-    warn("stations.json will be overridden!")
-    if not query_yes_no("Would you like to continue?"):
+if os.path.exists(args.output):
+    try:
+        warn("stations.json will be overridden!")
+        if not query_yes_no("Would you like to continue?"):
+            sys.exit(0)
+    except KeyboardInterrupt:
         sys.exit(0)
-except KeyboardInterrupt:
-    sys.exit(0)
 
 # Abort handler
 def signal_handler(sig, frame):
@@ -55,7 +65,6 @@ signal.signal(signal.SIGINT, signal_handler)
 # Generate Data
 with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[progress.description]{task.description}") as progress:
     task1 = progress.add_task("Generating Data", total=1)
-    progress.start()
 
     step = 0
     # Provide funtion to update progress bar
@@ -67,10 +76,19 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
         step = step + 1
 
     # Parse CSV file and return a list of lists
-    def parse_csv(text, sep=","):
+    def parse_csv(text, sep=",", name="unknown file"):
         lines = list(map(lambda t: t.strip(), text.split("\n")))
         lines = list(filter(lambda l: l != "" and l[0] != "#", lines))
-        return list(map(lambda l: l.split(sep), lines))
+        ret = list(map(lambda l: l.split(sep), lines))
+        if args.verbose:
+            padding = 0 if max(map(lambda l: len(l), ret)) > 10 else 1
+            table = Table(title=name, show_header=False, padding=(0,padding,0,padding))
+            for row in ret:
+                table.add_row(*list(map(lambda l: str(l), row)))
+            progress.stop()
+            console.print(table, "\n\n\n")
+            progress.start()
+        return ret
 
     # Makes station names uniform. For example M,1 and M,01 are turned to M01
     def station_id(char, number):
@@ -80,13 +98,13 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
     update_progress("Loading stations (1/2 english)")
     stations_eng = {}
     with open("data/stations_eng.csv", encoding="utf8") as c_file:
-        for line in parse_csv(c_file.read()):
+        for line in parse_csv(c_file.read(), name="stations_eng.csv"):
             stations_eng[station_id(line[0], int(line[1]))] = line[2]
             
     update_progress("Loading stations (2/2 japanese)")
     stations_jap = {}
     with open("data/stations_jap.csv", encoding="utf8") as c_file:
-        for line in parse_csv(c_file.read()):
+        for line in parse_csv(c_file.read(), name="stations_jap.csv"):
             stations_jap[station_id(line[0], int(line[1]))] = line[2]
 
     # Load transition types (for use in add_connections)
@@ -94,7 +112,7 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
     default_type = 1
     types = {}
     with open("data/types.csv", encoding="utf8") as c_file:
-        for line in parse_csv(c_file.read()):
+        for line in parse_csv(c_file.read(), name="types.csv"):
             types[int(line[0])] = line[1]
 
 
@@ -151,19 +169,19 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
     # Load line names (english)
     update_progress("Loading line names (1/2 english)")
     with open("data/lines_eng.csv", encoding="utf8") as c_file:
-        for line in parse_csv(c_file.read()):
+        for line in parse_csv(c_file.read(), name="lines_eng.csv"):
             add_line(line[0], "name_en", line[1])
 
     # Load line names (japanese)
     update_progress("Loading line names (2/2 japanese)")
     with open("data/lines_jap.csv", encoding="utf8") as c_file:
-        for line in parse_csv(c_file.read()):
+        for line in parse_csv(c_file.read(), name="lines_jap.csv"):
             add_line(line[0], "name_jp", line[1])
 
     # Read lines.csv and append all transitions to metro_map
     update_progress("Loading station transitions (1/2 lines.csv)")
     with open("data/lines.csv", encoding="utf8") as c_file:
-        for line in parse_csv(c_file.read()):
+        for line in parse_csv(c_file.read(), name="lines.csv"):
             char = line[0]
             first = int(line[1])
             last = int(line[2])
@@ -182,7 +200,7 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
     # Read transitions.csv and append all transitions to metro_map
     update_progress("Loading station transitions (1/2 transitions.csv)")
     with open("data/transitions.csv", encoding="utf8") as c_file:
-        for transition in parse_csv(c_file.read()):
+        for transition in parse_csv(c_file.read(), name="transitions.csv"):
             station1 = station_id(transition[0], int(transition[1]))
             station2 = station_id(transition[2], int(transition[3]))
             type = int(transition[4])
