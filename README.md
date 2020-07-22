@@ -89,8 +89,8 @@ As of yet there are a few things missing:
 - [x] Replace duration with distance
 - [x] Add distance (listed on wikipedia)
 - [x] Add a transition like file for duration
+- [x] General code cleanup in generator.py (maybe some progress output?)
 - [ ] Add real durations to trasitions.csv and lines.csv
-- [ ] General code cleanup in generator.py (maybe some progress output?)
 - [ ] Adding connections to non-metro transport systems (e.g. train stations or airports)
 
 ## Contributors
