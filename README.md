@@ -8,9 +8,9 @@ Data detailing Tokyo's Metro network, derived from the line plan and signs as we
 
 You can help by improving it!
 
-# Data formats
+## Data formats
 
-## JSON based data
+### JSON based data
 [Stations.json](stations.json) contains all currently known information. This includes the stations names in english and japanese as well all connections departing a station. Distances are in kilometers (float) and durations in seconds (int).
 
 The following should explain stations.json:
@@ -80,6 +80,34 @@ The following should explain stations.json:
     }
 }
 ```
+
+### Matrix based format
+Other then [Stations.json](stations.json) you can also use [matrix_dist.csv](matrix_dist.csv) or [matrix_time.csv](matrix_time.csv). These can easily be used with python. Here is a quick example:
+
+```python
+import pandas as pd
+import numpy as np
+
+# Load csv file
+matrix_dist = pd.read_csv('matrix_dist.csv', index_col=0)
+
+# Show distance from A05 to A06 in km
+print(matrix_dist["A05"]["A06"])
+>>> 0.7
+```
+
+### Regenerate data files
+You'll want to update [Stations.json](stations.json), [matrix_dist.csv](matrix_dist.csv) and [matrix_time.csv](matrix_time.csv) after doing changes to the data directory. To update [Stations.json](stations.json) simply run the following within the repo:
+
+`$ generator.py`
+
+To update the matrix files, run the following:
+
+`$ generator.py -m`
+
+For verbose output use
+
+`$ generator.py -m -v`
 
 ## Things to do
 
