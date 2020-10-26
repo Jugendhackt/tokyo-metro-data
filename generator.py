@@ -19,6 +19,10 @@ parser.add_argument("-o", "--output", metavar="file", type=str,
                     default="./stations.json", dest='output',
                     help="location of the output file (default: ./stations.json)")
 
+parser.add_argument("-m", "--matrix", action='store_true',
+                    dest='matrix', default=False,
+                    help="Create transition Matrices")
+
 args = parser.parse_args()
 
 def warn(text):
@@ -51,10 +55,25 @@ def query_yes_no(question, default="yes"):
             console.print("Please respond with 'yes' or 'no' "
                              "(or 'y' or 'n').\n")
 
-# Ask for user confirmation
+# Dump matricies
+matrix_dist_file = "./matrix_dist.csv"
+matrix_time_file = "./matrix_time.csv"
+
+ask_continue = False
+
+# Ask for user confirmation if files exist
 if os.path.exists(args.output):
+    warn(args.output + " will be overridden!")
+    ask_continue = True
+if args.matrix and os.path.exists(matrix_dist_file):
+    warn(matrix_dist_file + " will be overridden!")
+    ask_continue = True
+if args.matrix and os.path.exists(matrix_time_file):
+    warn(matrix_time_file + " will be overridden!")
+    ask_continue = True
+
+if ask_continue:
     try:
-        warn(args.output + " will be overridden!")
         if not query_yes_no("Would you like to continue?"):
             sys.exit(0)
     except KeyboardInterrupt:
@@ -75,7 +94,7 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
     def update_progress(text):
         global step
         progress.tasks[task1].description = text
-        progress.update(task1, completed=(step / 8))
+        progress.update(task1, completed=(step / (9 if args.matrix else 8)))
         progress.refresh()
         step = step + 1
 
@@ -224,8 +243,50 @@ with Progress("[progress.percentage]{task.percentage:>3.0f}%", BarColumn(), "[pr
     with open(args.output, "w+", encoding="utf8") as c_file:
         c_file.write(json.dumps(dump, indent=4, sort_keys=True, ensure_ascii=False))
 
+    # Dump data in Matrix format
+    if args.matrix:
+        update_progress("Dumping data in matrix format... ")
+
+        import pandas as pd
+        import numpy as np
+        
+        # Get names of Stations for indexing (rows and columns)
+        names = stations.keys()
+
+        # Create empty matrix for transitions
+        matrix_dist = np.full((len(names), len(names)), -1.0)
+        matrix_time = np.full((len(names), len(names)), -1.0)
+
+        # Index matrix
+        matrix_dist = pd.DataFrame(matrix_dist, columns=names, index=names)
+        matrix_time = pd.DataFrame(matrix_time, columns=names, index=names)
+        
+        # Fill matrix with data
+        for station in stations:
+            for connection in stations[station]["connections"]:
+                matrix_dist[station][connection["target_id"]] = connection["distance"]
+                matrix_time[station][connection["target_id"]] = connection["duration"]
+
+        # Verbose output matrix
+        if args.verbose:
+            progress.stop()
+            console.print("\n\nTransition distance matrix:\n")
+            console.print(matrix_dist)
+            console.print("\n\nTransition time matrix:\n")
+            console.print(matrix_time)
+            progress.start()
+
+        # Save matrix files
+        with open(matrix_dist_file, "w+", encoding="utf8") as c_file:
+            c_file.write(matrix_dist.to_csv(index=True))
+
+        with open(matrix_time_file, "w+", encoding="utf8") as c_file:
+            c_file.write(matrix_time.to_csv(index=True))
+        
     ###
     ### Done
     ###
     update_progress("Done")
+
+
 
