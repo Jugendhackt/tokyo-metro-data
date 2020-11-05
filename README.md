@@ -86,7 +86,6 @@ Other then [Stations.json](stations.json) you can also use [matrix_dist.csv](mat
 
 ```python
 import pandas as pd
-import numpy as np
 
 # Load csv file
 matrix_dist = pd.read_csv('matrix_dist.csv', index_col=0)
