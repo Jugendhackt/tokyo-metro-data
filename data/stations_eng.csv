@@ -1,10 +1,10 @@
 G,1,Shibuya
-G,2,Ometo-sando
+G,2,Omote-sando
 G,3,Gaiemmae
 G,4,Aoyama-itchome
 G,5,Akasaka-mitsuke
-G,6,Tameiki-sanno
-G,7,Toranomon Hills
+G,6,Tameike-sanno
+G,7,Toranomon
 G,8,Shimbashi
 G,9,Ginza
 G,10,Kyobashi
@@ -24,13 +24,13 @@ M,4,Higashi-koenji
 M,5,Shin-nakano
 M,6,Nakano-sakaue
 M,7,Nishi-shinjuku
-M,8,Shinjuku-nishiguchi
+M,8,Shinjuku
 M,9,Shinjuku-sanchome
 M,10,Shinjuku-gyoemmae
 M,11,Yotsuya-sanchome
-M,12,Yotasuya
-M,13,Akasaka-mutsuke
-M,14,Kokki-gijidomae
+M,12,Yotsuya
+M,13,Akasaka-mitsuke
+M,14,Kokkai-gijidomae
 M,15,Kasumigaseki
 M,16,Ginza
 M,17,Tokyo
@@ -47,7 +47,7 @@ H,2,Ebisu
 H,3,Hiro-o
 H,4,Roppongi
 H,5,Kamiyacho
-H,6,Toranomon-hills
+H,6,Toranomon　Hills
 H,7,Kasumigaseki
 H,8,Hibiya
 H,9,Ginza
@@ -181,11 +181,11 @@ F,14,Kita-sando
 F,15,Meiji-jingumae <Harajuku>
 F,16,Shibuya
 E,1,Shinjuku-nishiguchi
-E,2,Hagashi-shinjuku
+E,2,Higashi-shinjuku
 E,3,Wakamatsu-kawada
 E,4,Ushigome-Yanagicho
 E,5,Ushigome-kagurazaka
-E,6,Lidabashi
+E,6,Iidabashi
 E,7,Kasuga
 E,8,Hongo-sanchome
 E,9,Ueno-okachimachi
@@ -193,7 +193,7 @@ E,10,Shin-okachimachi
 E,11,Kuramae
 E,12,Ryogoku
 E,13,Morishita
-E,14,Kiyosumi
+E,14,Kiyosumi-shirakawa
 E,15,Monzen-nakacho
 E,16,Tsukishima
 E,17,Kachidoki

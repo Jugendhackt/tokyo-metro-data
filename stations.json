@@ -1098,7 +1098,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Hagashi-shinjuku",
+            "name_en": "Higashi-shinjuku",
             "name_jp": "東新宿"
         },
         "E03": {
@@ -1199,7 +1199,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Lidabashi",
+            "name_en": "Iidabashi",
             "name_jp": "飯田橋"
         },
         "E07": {
@@ -1422,7 +1422,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Kiyosumi",
+            "name_en": "Kiyosumi-shirakawa",
             "name_jp": "清澄白河"
         },
         "E15": {
@@ -2451,7 +2451,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Ometo-sando",
+            "name_en": "Omote-sando",
             "name_jp": "表参道"
         },
         "G03": {
@@ -2594,7 +2594,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Tameiki-sanno",
+            "name_en": "Tameike-sanno",
             "name_jp": "溜池山王"
         },
         "G07": {
@@ -2614,7 +2614,7 @@
                     "type_id": 1
                 }
             ],
-            "name_en": "Toranomon Hills",
+            "name_en": "Toranomon",
             "name_jp": "虎ノ門"
         },
         "G08": {
@@ -3051,7 +3051,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Toranomon-hills",
+            "name_en": "Toranomon　Hills",
             "name_jp": "虎ノ門ヒルズ"
         },
         "H07": {
@@ -4274,7 +4274,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Shinjuku-nishiguchi",
+            "name_en": "Shinjuku",
             "name_jp": "新宿"
         },
         "M09": {
@@ -4382,7 +4382,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Yotasuya",
+            "name_en": "Yotsuya",
             "name_jp": "四ツ谷"
         },
         "M13": {
@@ -4430,7 +4430,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Akasaka-mutsuke",
+            "name_en": "Akasaka-mitsuke",
             "name_jp": "赤坂見附"
         },
         "M14": {
@@ -4471,7 +4471,7 @@
                     "type_id": 0
                 }
             ],
-            "name_en": "Kokki-gijidomae",
+            "name_en": "Kokkai-gijidomae",
             "name_jp": "国会議事堂前"
         },
         "M15": {
