@@ -1,6 +1,6 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jugendhackt/tokyo-metro-data?style=flat-square"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/jugendhackt/tokyo-metro-data?style=flat-square"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/jugendhackt/tokyo-metro-data?style=flat-square"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/jugendhackt/tokyo-metro-data?style=flat-square">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tokyo_Metro_2_logo.svg/1200px-Tokyo_Metro_2_logo.svg.png" align="right" width="200" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tokyo_Metro_2_logo.svg/330px-Tokyo_Metro_2_logo.svg.png" align="right" width="200" />
 
 # Tokyo Metro Data
 
@@ -125,7 +125,8 @@ As of yet there are a few things missing:
 You can add yourself here after contributing something!
 
 <a href="https://github.com/StoneLabs"><img src="https://github.com/StoneLabs.png" title="StoneLabs" width="80" height="80"></a>
-<a href="https://github.com/sternenseemann"><img src="https://github.com/sternenseemann.png" title="StoneLabs" width="80" height="80"></a>
+<a href="https://github.com/sternenseemann"><img src="https://github.com/sternenseemann.png" title="sternseemann" width="80" height="80"></a>
+<a href="https://github.com/chrissbrads"><img src="https://github.com/chrissbrads.png" title="chrissbrads" width="80" height="80"></a>
 
 # Projects using this data
 *Feel free to add your project!*
